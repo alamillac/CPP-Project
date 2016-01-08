@@ -8,31 +8,28 @@ int: num_DNA_pieces;
 int: max_nucleotides_in_DNA;
 
 set of int: DNA_pieces = 1..num_DNA_pieces;
-set of int: Nucleotides = 0..num_nucleotides;  %0 means void
 
 array[DNA_pieces] of 1..max_nucleotides_in_DNA: sizes_DNA_pieces;
-array[DNA_pieces, 1..max_nucleotides_in_DNA] of Nucleotides: DNA_nucleotides;
+array[DNA_pieces, 1..max_nucleotides_in_DNA] of int: DNA_nucleotides;
+array[DNA_pieces, 1..max_nucleotides_in_DNA] of int: DNA_nucleotides_inv;
 
 %Program settings
 int: min_k_value;
 
 %Variables
 array[DNA_pieces] of var DNA_pieces: original_DNA_order;
-array[1..num_DNA_pieces-1] of var int: k;
+array[1..num_DNA_pieces-1] of var min_k_value+1..max_nucleotides_in_DNA-1: k;
 
 %Rules
 constraint alldifferent(original_DNA_order);
 constraint sum(sizes_DNA_pieces) - sum(k) = num_nucleotides_in_original_DNA;
-constraint forall(i in 1..num_DNA_pieces-1) (k[i] > min_k_value);
 
 constraint forall(i in 1..num_DNA_pieces-1) (
-                if sizes_DNA_pieces[original_DNA_order[i]] - k[i] > 0 then
-                    forall(j in 1..max_nucleotides_in_DNA) (
-                        if j <= k[i] then
-                            DNA_nucleotides[original_DNA_order[i], sizes_DNA_pieces[original_DNA_order[i]] - k[i] + j] = DNA_nucleotides[original_DNA_order[i+1], j]
-                        else true endif
-                    )
-                else false endif
+                DNA_nucleotides_inv[original_DNA_order[i], k[i]] = DNA_nucleotides[original_DNA_order[i+1], k[i]] /\
+                k[i] < min(sizes_DNA_pieces[original_DNA_order[i]], sizes_DNA_pieces[original_DNA_order[i+1]]) /\
+                if i > 1 then sizes_DNA_pieces[original_DNA_order[i]] >= k[i] + k[i-1] else true endif
             );
 
 solve satisfy;
+
+output [ "{\"original_DNA_order\": ", show(original_DNA_order), ", ", "\"k\": ", show(k), "}" ];

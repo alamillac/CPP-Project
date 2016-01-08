@@ -1,0 +1,353 @@
+[2016-01-08 22:01:26,715] [libs.DataBuild] [DEBUG] Setting DataBuild
+[2016-01-08 22:01:26,715] [libs.MiniZinc] [DEBUG] Setting MiniZinc command
+[2016-01-08 22:01:26,715] [libs.DNARebuild] [DEBUG] Setting DNARebuild
+[2016-01-08 22:01:26,716] [root] [INFO] File D2000-5.txt found
+[2016-01-08 22:01:26,716] [root] [INFO] Skipping file D2000-5.txt
+[2016-01-08 22:01:26,716] [root] [INFO] File D5000-1.txt found
+[2016-01-08 22:01:26,716] [root] [INFO] Skipping file D5000-1.txt
+[2016-01-08 22:01:26,716] [root] [INFO] File D500-1.txt found
+[2016-01-08 22:01:26,716] [root] [INFO] Starting file D500-1.txt
+[2016-01-08 22:01:27,717] [libs.DataBuild] [INFO] Reading raw data from file data/D500-1.txt
+[2016-01-08 22:01:27,722] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:01:27,723] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-1.dzn
+[2016-01-08 22:01:27,724] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:01:27,724] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D500-1.dzn'. This could take some time
+[2016-01-08 22:01:27,928] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.203469991684 seconds to complete.
+[2016-01-08 22:01:27,928] [libs.MiniZinc] [INFO] Saving stats in stats/D500-1.json.
+[2016-01-08 22:01:27,929] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:01:27,929] [libs.MiniZinc] [INFO] Saving data model in data_models/D500-1.txt
+[2016-01-08 22:01:27,930] [libs.MiniZinc] [INFO] File data_models/D500-1.txt created successfully
+[2016-01-08 22:01:27,930] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-1.txt
+[2016-01-08 22:01:27,931] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:01:27,931] [libs.DNARebuild] [INFO] Saving results in file results/D500-1.txt
+[2016-01-08 22:01:27,932] [root] [INFO] File D500-2.txt found
+[2016-01-08 22:01:27,932] [root] [INFO] Starting file D500-2.txt
+[2016-01-08 22:01:28,934] [libs.DataBuild] [INFO] Reading raw data from file data/D500-2.txt
+[2016-01-08 22:01:28,938] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:01:28,939] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-2.dzn
+[2016-01-08 22:01:28,940] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:01:28,940] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D500-2.dzn'. This could take some time
+[2016-01-08 22:01:29,126] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.185683012009 seconds to complete.
+[2016-01-08 22:01:29,127] [libs.MiniZinc] [INFO] Saving stats in stats/D500-2.json.
+[2016-01-08 22:01:29,128] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:01:29,128] [libs.MiniZinc] [INFO] Saving data model in data_models/D500-2.txt
+[2016-01-08 22:01:29,129] [libs.MiniZinc] [INFO] File data_models/D500-2.txt created successfully
+[2016-01-08 22:01:29,129] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-2.txt
+[2016-01-08 22:01:29,129] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:01:29,130] [libs.DNARebuild] [INFO] Saving results in file results/D500-2.txt
+[2016-01-08 22:01:29,130] [root] [INFO] File D200-2.txt found
+[2016-01-08 22:01:29,130] [root] [INFO] Starting file D200-2.txt
+[2016-01-08 22:01:30,132] [libs.DataBuild] [INFO] Reading raw data from file data/D200-2.txt
+[2016-01-08 22:01:30,134] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:01:30,134] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-2.dzn
+[2016-01-08 22:01:30,135] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:01:30,135] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D200-2.dzn'. This could take some time
+[2016-01-08 22:01:30,180] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.0439248085022 seconds to complete.
+[2016-01-08 22:01:30,180] [libs.MiniZinc] [INFO] Saving stats in stats/D200-2.json.
+[2016-01-08 22:01:30,181] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:01:30,182] [libs.MiniZinc] [INFO] Saving data model in data_models/D200-2.txt
+[2016-01-08 22:01:30,182] [libs.MiniZinc] [INFO] File data_models/D200-2.txt created successfully
+[2016-01-08 22:01:30,182] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-2.txt
+[2016-01-08 22:01:30,183] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 22:01:30,183] [libs.DNARebuild] [INFO] Saving results in file results/D200-2.txt
+[2016-01-08 22:01:30,184] [root] [INFO] File D4000-2.txt found
+[2016-01-08 22:01:30,184] [root] [INFO] Skipping file D4000-2.txt
+[2016-01-08 22:01:30,184] [root] [INFO] File D1000-4.txt found
+[2016-01-08 22:01:30,184] [root] [INFO] Starting file D1000-4.txt
+[2016-01-08 22:01:31,186] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-4.txt
+[2016-01-08 22:01:31,191] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:01:31,191] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-4.dzn
+[2016-01-08 22:01:31,192] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:01:31,192] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D1000-4.dzn'. This could take some time
+[2016-01-08 22:01:36,317] [libs.MiniZinc] [INFO] Command executed successfully. It takes 5.12448406219 seconds to complete.
+[2016-01-08 22:01:36,317] [libs.MiniZinc] [INFO] Saving stats in stats/D1000-4.json.
+[2016-01-08 22:01:36,318] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:01:36,319] [libs.MiniZinc] [INFO] Saving data model in data_models/D1000-4.txt
+[2016-01-08 22:01:36,319] [libs.MiniZinc] [INFO] File data_models/D1000-4.txt created successfully
+[2016-01-08 22:01:36,320] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-4.txt
+[2016-01-08 22:01:36,320] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:01:36,321] [libs.DNARebuild] [INFO] Saving results in file results/D1000-4.txt
+[2016-01-08 22:01:36,321] [root] [INFO] File D3000-3.txt found
+[2016-01-08 22:01:36,321] [root] [INFO] Skipping file D3000-3.txt
+[2016-01-08 22:01:36,321] [root] [INFO] File D1000-1.txt found
+[2016-01-08 22:01:36,322] [root] [INFO] Starting file D1000-1.txt
+[2016-01-08 22:01:37,324] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-1.txt
+[2016-01-08 22:01:37,332] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:01:37,332] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-1.dzn
+[2016-01-08 22:01:37,332] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:01:37,332] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D1000-1.dzn'. This could take some time
+[2016-01-08 22:01:38,565] [libs.MiniZinc] [INFO] Command executed successfully. It takes 1.23279309273 seconds to complete.
+[2016-01-08 22:01:38,566] [libs.MiniZinc] [INFO] Saving stats in stats/D1000-1.json.
+[2016-01-08 22:01:38,567] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:01:38,567] [libs.MiniZinc] [INFO] Saving data model in data_models/D1000-1.txt
+[2016-01-08 22:01:38,568] [libs.MiniZinc] [INFO] File data_models/D1000-1.txt created successfully
+[2016-01-08 22:01:38,568] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-1.txt
+[2016-01-08 22:01:38,568] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:01:38,569] [libs.DNARebuild] [INFO] Saving results in file results/D1000-1.txt
+[2016-01-08 22:01:38,569] [root] [INFO] File D5000-3.txt found
+[2016-01-08 22:01:38,569] [root] [INFO] Skipping file D5000-3.txt
+[2016-01-08 22:01:38,569] [root] [INFO] File D2000-2.txt found
+[2016-01-08 22:01:38,570] [root] [INFO] Skipping file D2000-2.txt
+[2016-01-08 22:01:38,570] [root] [INFO] File D2000-3.txt found
+[2016-01-08 22:01:38,570] [root] [INFO] Skipping file D2000-3.txt
+[2016-01-08 22:01:38,570] [root] [INFO] File D500-5.txt found
+[2016-01-08 22:01:38,571] [root] [INFO] Starting file D500-5.txt
+[2016-01-08 22:01:39,572] [libs.DataBuild] [INFO] Reading raw data from file data/D500-5.txt
+[2016-01-08 22:01:39,574] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:01:39,574] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-5.dzn
+[2016-01-08 22:01:39,574] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:01:39,574] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D500-5.dzn'. This could take some time
+[2016-01-08 22:01:39,760] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.185773849487 seconds to complete.
+[2016-01-08 22:01:39,761] [libs.MiniZinc] [INFO] Saving stats in stats/D500-5.json.
+[2016-01-08 22:01:39,761] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:01:39,762] [libs.MiniZinc] [INFO] Saving data model in data_models/D500-5.txt
+[2016-01-08 22:01:39,762] [libs.MiniZinc] [INFO] File data_models/D500-5.txt created successfully
+[2016-01-08 22:01:39,762] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-5.txt
+[2016-01-08 22:01:39,763] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 22:01:39,763] [libs.DNARebuild] [INFO] Saving results in file results/D500-5.txt
+[2016-01-08 22:01:39,764] [root] [INFO] File D4000-5.txt found
+[2016-01-08 22:01:39,764] [root] [INFO] Skipping file D4000-5.txt
+[2016-01-08 22:01:39,764] [root] [INFO] File D500-3.txt found
+[2016-01-08 22:01:39,764] [root] [INFO] Starting file D500-3.txt
+[2016-01-08 22:01:40,766] [libs.DataBuild] [INFO] Reading raw data from file data/D500-3.txt
+[2016-01-08 22:01:40,771] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:01:40,771] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-3.dzn
+[2016-01-08 22:01:40,772] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:01:40,773] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D500-3.dzn'. This could take some time
+[2016-01-08 22:01:40,962] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.188740968704 seconds to complete.
+[2016-01-08 22:01:40,962] [libs.MiniZinc] [INFO] Saving stats in stats/D500-3.json.
+[2016-01-08 22:01:40,963] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:01:40,964] [libs.MiniZinc] [INFO] Saving data model in data_models/D500-3.txt
+[2016-01-08 22:01:40,964] [libs.MiniZinc] [INFO] File data_models/D500-3.txt created successfully
+[2016-01-08 22:01:40,964] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-3.txt
+[2016-01-08 22:01:40,965] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:01:40,965] [libs.DNARebuild] [INFO] Saving results in file results/D500-3.txt
+[2016-01-08 22:01:40,965] [root] [INFO] File D2000-1.txt found
+[2016-01-08 22:01:40,966] [root] [INFO] Skipping file D2000-1.txt
+[2016-01-08 22:01:40,966] [root] [INFO] File D200-5.txt found
+[2016-01-08 22:01:40,966] [root] [INFO] Starting file D200-5.txt
+[2016-01-08 22:01:41,968] [libs.DataBuild] [INFO] Reading raw data from file data/D200-5.txt
+[2016-01-08 22:01:41,970] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:01:41,971] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-5.dzn
+[2016-01-08 22:01:41,972] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:01:41,972] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D200-5.dzn'. This could take some time
+[2016-01-08 22:01:42,033] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.0606760978699 seconds to complete.
+[2016-01-08 22:01:42,034] [libs.MiniZinc] [INFO] Saving stats in stats/D200-5.json.
+[2016-01-08 22:01:42,034] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:01:42,035] [libs.MiniZinc] [INFO] Saving data model in data_models/D200-5.txt
+[2016-01-08 22:01:42,035] [libs.MiniZinc] [INFO] File data_models/D200-5.txt created successfully
+[2016-01-08 22:01:42,036] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-5.txt
+[2016-01-08 22:01:42,036] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:01:42,036] [libs.DNARebuild] [INFO] Saving results in file results/D200-5.txt
+[2016-01-08 22:01:42,037] [root] [INFO] File D5000-5.txt found
+[2016-01-08 22:01:42,037] [root] [INFO] Skipping file D5000-5.txt
+[2016-01-08 22:01:42,037] [root] [INFO] File D1500-4.txt found
+[2016-01-08 22:01:42,037] [root] [INFO] Starting file D1500-4.txt
+[2016-01-08 22:01:43,039] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-4.txt
+[2016-01-08 22:01:43,046] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:01:43,046] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-4.dzn
+[2016-01-08 22:01:43,046] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:01:43,046] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D1500-4.dzn'. This could take some time
+[2016-01-08 22:01:51,087] [libs.MiniZinc] [INFO] Command executed successfully. It takes 8.04051208496 seconds to complete.
+[2016-01-08 22:01:51,088] [libs.MiniZinc] [INFO] Saving stats in stats/D1500-4.json.
+[2016-01-08 22:01:51,088] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:01:51,089] [libs.MiniZinc] [INFO] Saving data model in data_models/D1500-4.txt
+[2016-01-08 22:01:51,089] [libs.MiniZinc] [INFO] File data_models/D1500-4.txt created successfully
+[2016-01-08 22:01:51,089] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-4.txt
+[2016-01-08 22:01:51,090] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:01:51,090] [libs.DNARebuild] [INFO] Saving results in file results/D1500-4.txt
+[2016-01-08 22:01:51,091] [root] [INFO] File D6000-4.txt found
+[2016-01-08 22:01:51,091] [root] [INFO] Skipping file D6000-4.txt
+[2016-01-08 22:01:51,091] [root] [INFO] File D3000-5.txt found
+[2016-01-08 22:01:51,091] [root] [INFO] Skipping file D3000-5.txt
+[2016-01-08 22:01:51,092] [root] [INFO] File D5000-4.txt found
+[2016-01-08 22:01:51,092] [root] [INFO] Skipping file D5000-4.txt
+[2016-01-08 22:01:51,092] [root] [INFO] File D6000-3.txt found
+[2016-01-08 22:01:51,092] [root] [INFO] Skipping file D6000-3.txt
+[2016-01-08 22:01:51,093] [root] [INFO] File D1500-1.txt found
+[2016-01-08 22:01:51,093] [root] [INFO] Starting file D1500-1.txt
+[2016-01-08 22:01:52,095] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-1.txt
+[2016-01-08 22:01:52,105] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:01:52,105] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-1.dzn
+[2016-01-08 22:01:52,105] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:01:52,105] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D1500-1.dzn'. This could take some time
+[2016-01-08 22:03:28,225] [libs.MiniZinc] [INFO] Command executed successfully. It takes 96.1196000576 seconds to complete.
+[2016-01-08 22:03:28,226] [libs.MiniZinc] [INFO] Saving stats in stats/D1500-1.json.
+[2016-01-08 22:03:28,227] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:03:28,227] [libs.MiniZinc] [INFO] Saving data model in data_models/D1500-1.txt
+[2016-01-08 22:03:28,228] [libs.MiniZinc] [INFO] File data_models/D1500-1.txt created successfully
+[2016-01-08 22:03:28,228] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-1.txt
+[2016-01-08 22:03:28,229] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:03:28,229] [libs.DNARebuild] [INFO] Saving results in file results/D1500-1.txt
+[2016-01-08 22:03:28,229] [root] [INFO] File D200-3.txt found
+[2016-01-08 22:03:28,230] [root] [INFO] Starting file D200-3.txt
+[2016-01-08 22:03:29,232] [libs.DataBuild] [INFO] Reading raw data from file data/D200-3.txt
+[2016-01-08 22:03:29,234] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:03:29,235] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-3.dzn
+[2016-01-08 22:03:29,236] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:03:29,236] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D200-3.dzn'. This could take some time
+[2016-01-08 22:03:29,283] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.047131061554 seconds to complete.
+[2016-01-08 22:03:29,284] [libs.MiniZinc] [INFO] Saving stats in stats/D200-3.json.
+[2016-01-08 22:03:29,285] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:03:29,285] [libs.MiniZinc] [INFO] Saving data model in data_models/D200-3.txt
+[2016-01-08 22:03:29,286] [libs.MiniZinc] [INFO] File data_models/D200-3.txt created successfully
+[2016-01-08 22:03:29,286] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-3.txt
+[2016-01-08 22:03:29,287] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:03:29,287] [libs.DNARebuild] [INFO] Saving results in file results/D200-3.txt
+[2016-01-08 22:03:29,287] [root] [INFO] File D3000-2.txt found
+[2016-01-08 22:03:29,288] [root] [INFO] Skipping file D3000-2.txt
+[2016-01-08 22:03:29,288] [root] [INFO] File D5000-2.txt found
+[2016-01-08 22:03:29,288] [root] [INFO] Skipping file D5000-2.txt
+[2016-01-08 22:03:29,289] [root] [INFO] File D1000-3.txt found
+[2016-01-08 22:03:29,289] [root] [INFO] Starting file D1000-3.txt
+[2016-01-08 22:03:30,290] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-3.txt
+[2016-01-08 22:03:30,299] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:03:30,299] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-3.dzn
+[2016-01-08 22:03:30,300] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:03:30,300] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D1000-3.dzn'. This could take some time
+[2016-01-08 22:03:31,193] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.892858982086 seconds to complete.
+[2016-01-08 22:03:31,194] [libs.MiniZinc] [INFO] Saving stats in stats/D1000-3.json.
+[2016-01-08 22:03:31,194] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:03:31,195] [libs.MiniZinc] [INFO] Saving data model in data_models/D1000-3.txt
+[2016-01-08 22:03:31,195] [libs.MiniZinc] [INFO] File data_models/D1000-3.txt created successfully
+[2016-01-08 22:03:31,195] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-3.txt
+[2016-01-08 22:03:31,196] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:03:31,196] [libs.DNARebuild] [INFO] Saving results in file results/D1000-3.txt
+[2016-01-08 22:03:31,197] [root] [INFO] File D4000-1.txt found
+[2016-01-08 22:03:31,197] [root] [INFO] Skipping file D4000-1.txt
+[2016-01-08 22:03:31,197] [root] [INFO] File D200-4.txt found
+[2016-01-08 22:03:31,197] [root] [INFO] Starting file D200-4.txt
+[2016-01-08 22:03:32,199] [libs.DataBuild] [INFO] Reading raw data from file data/D200-4.txt
+[2016-01-08 22:03:32,201] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:03:32,201] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-4.dzn
+[2016-01-08 22:03:32,202] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:03:32,202] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D200-4.dzn'. This could take some time
+[2016-01-08 22:03:32,250] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.0473608970642 seconds to complete.
+[2016-01-08 22:03:32,250] [libs.MiniZinc] [INFO] Saving stats in stats/D200-4.json.
+[2016-01-08 22:03:32,251] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:03:32,251] [libs.MiniZinc] [INFO] Saving data model in data_models/D200-4.txt
+[2016-01-08 22:03:32,252] [libs.MiniZinc] [INFO] File data_models/D200-4.txt created successfully
+[2016-01-08 22:03:32,252] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-4.txt
+[2016-01-08 22:03:32,253] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:03:32,253] [libs.DNARebuild] [INFO] Saving results in file results/D200-4.txt
+[2016-01-08 22:03:32,253] [root] [INFO] File D1500-5.txt found
+[2016-01-08 22:03:32,253] [root] [INFO] Starting file D1500-5.txt
+[2016-01-08 22:03:33,255] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-5.txt
+[2016-01-08 22:03:33,265] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:03:33,265] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-5.dzn
+[2016-01-08 22:03:33,265] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:03:33,265] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D1500-5.dzn'. This could take some time
+[2016-01-08 22:03:42,043] [libs.MiniZinc] [INFO] Command executed successfully. It takes 8.77748394012 seconds to complete.
+[2016-01-08 22:03:42,044] [libs.MiniZinc] [INFO] Saving stats in stats/D1500-5.json.
+[2016-01-08 22:03:42,044] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:03:42,045] [libs.MiniZinc] [INFO] Saving data model in data_models/D1500-5.txt
+[2016-01-08 22:03:42,045] [libs.MiniZinc] [INFO] File data_models/D1500-5.txt created successfully
+[2016-01-08 22:03:42,045] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-5.txt
+[2016-01-08 22:03:42,046] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:03:42,046] [libs.DNARebuild] [INFO] Saving results in file results/D1500-5.txt
+[2016-01-08 22:03:42,047] [root] [INFO] File D1500-3.txt found
+[2016-01-08 22:03:42,047] [root] [INFO] Starting file D1500-3.txt
+[2016-01-08 22:03:43,049] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-3.txt
+[2016-01-08 22:03:43,057] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:03:43,057] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-3.dzn
+[2016-01-08 22:03:43,058] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:03:43,058] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D1500-3.dzn'. This could take some time
+[2016-01-08 22:04:08,669] [libs.MiniZinc] [INFO] Command executed successfully. It takes 25.6112499237 seconds to complete.
+[2016-01-08 22:04:08,670] [libs.MiniZinc] [INFO] Saving stats in stats/D1500-3.json.
+[2016-01-08 22:04:08,671] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:04:08,671] [libs.MiniZinc] [INFO] Saving data model in data_models/D1500-3.txt
+[2016-01-08 22:04:08,672] [libs.MiniZinc] [INFO] File data_models/D1500-3.txt created successfully
+[2016-01-08 22:04:08,672] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-3.txt
+[2016-01-08 22:04:08,672] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:04:08,673] [libs.DNARebuild] [INFO] Saving results in file results/D1500-3.txt
+[2016-01-08 22:04:08,673] [root] [INFO] File D3000-4.txt found
+[2016-01-08 22:04:08,673] [root] [INFO] Skipping file D3000-4.txt
+[2016-01-08 22:04:08,673] [root] [INFO] File D1000-2.txt found
+[2016-01-08 22:04:08,674] [root] [INFO] Starting file D1000-2.txt
+[2016-01-08 22:04:09,676] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-2.txt
+[2016-01-08 22:04:09,684] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:04:09,684] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-2.dzn
+[2016-01-08 22:04:09,684] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:04:09,684] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D1000-2.dzn'. This could take some time
+[2016-01-08 22:04:11,028] [libs.MiniZinc] [INFO] Command executed successfully. It takes 1.34365296364 seconds to complete.
+[2016-01-08 22:04:11,029] [libs.MiniZinc] [INFO] Saving stats in stats/D1000-2.json.
+[2016-01-08 22:04:11,030] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:04:11,030] [libs.MiniZinc] [INFO] Saving data model in data_models/D1000-2.txt
+[2016-01-08 22:04:11,030] [libs.MiniZinc] [INFO] File data_models/D1000-2.txt created successfully
+[2016-01-08 22:04:11,031] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-2.txt
+[2016-01-08 22:04:11,031] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 22:04:11,031] [libs.DNARebuild] [INFO] Saving results in file results/D1000-2.txt
+[2016-01-08 22:04:11,032] [root] [INFO] File D3000-1.txt found
+[2016-01-08 22:04:11,032] [root] [INFO] Skipping file D3000-1.txt
+[2016-01-08 22:04:11,032] [root] [INFO] File D6000-2.txt found
+[2016-01-08 22:04:11,033] [root] [INFO] Skipping file D6000-2.txt
+[2016-01-08 22:04:11,033] [root] [INFO] File D200-1.txt found
+[2016-01-08 22:04:11,033] [root] [INFO] Starting file D200-1.txt
+[2016-01-08 22:04:12,035] [libs.DataBuild] [INFO] Reading raw data from file data/D200-1.txt
+[2016-01-08 22:04:12,037] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:04:12,038] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-1.dzn
+[2016-01-08 22:04:12,038] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:04:12,039] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D200-1.dzn'. This could take some time
+[2016-01-08 22:04:12,089] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.0496509075165 seconds to complete.
+[2016-01-08 22:04:12,090] [libs.MiniZinc] [INFO] Saving stats in stats/D200-1.json.
+[2016-01-08 22:04:12,090] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:04:12,091] [libs.MiniZinc] [INFO] Saving data model in data_models/D200-1.txt
+[2016-01-08 22:04:12,091] [libs.MiniZinc] [INFO] File data_models/D200-1.txt created successfully
+[2016-01-08 22:04:12,091] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-1.txt
+[2016-01-08 22:04:12,092] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:04:12,092] [libs.DNARebuild] [INFO] Saving results in file results/D200-1.txt
+[2016-01-08 22:04:12,092] [root] [INFO] File D1000-5.txt found
+[2016-01-08 22:04:12,093] [root] [INFO] Starting file D1000-5.txt
+[2016-01-08 22:04:13,094] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-5.txt
+[2016-01-08 22:04:13,103] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:04:13,103] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-5.dzn
+[2016-01-08 22:04:13,104] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:04:13,104] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D1000-5.dzn'. This could take some time
+[2016-01-08 22:04:14,472] [libs.MiniZinc] [INFO] Command executed successfully. It takes 1.36759209633 seconds to complete.
+[2016-01-08 22:04:14,472] [libs.MiniZinc] [INFO] Saving stats in stats/D1000-5.json.
+[2016-01-08 22:04:14,473] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:04:14,473] [libs.MiniZinc] [INFO] Saving data model in data_models/D1000-5.txt
+[2016-01-08 22:04:14,474] [libs.MiniZinc] [INFO] File data_models/D1000-5.txt created successfully
+[2016-01-08 22:04:14,474] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-5.txt
+[2016-01-08 22:04:14,475] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:04:14,475] [libs.DNARebuild] [INFO] Saving results in file results/D1000-5.txt
+[2016-01-08 22:04:14,475] [root] [INFO] File D6000-1.txt found
+[2016-01-08 22:04:14,476] [root] [INFO] Skipping file D6000-1.txt
+[2016-01-08 22:04:14,476] [root] [INFO] File D500-4.txt found
+[2016-01-08 22:04:14,476] [root] [INFO] Starting file D500-4.txt
+[2016-01-08 22:04:15,478] [libs.DataBuild] [INFO] Reading raw data from file data/D500-4.txt
+[2016-01-08 22:04:15,483] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:04:15,483] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-4.dzn
+[2016-01-08 22:04:15,484] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:04:15,484] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D500-4.dzn'. This could take some time
+[2016-01-08 22:04:15,681] [libs.MiniZinc] [INFO] Command executed successfully. It takes 0.196111917496 seconds to complete.
+[2016-01-08 22:04:15,681] [libs.MiniZinc] [INFO] Saving stats in stats/D500-4.json.
+[2016-01-08 22:04:15,682] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:04:15,682] [libs.MiniZinc] [INFO] Saving data model in data_models/D500-4.txt
+[2016-01-08 22:04:15,683] [libs.MiniZinc] [INFO] File data_models/D500-4.txt created successfully
+[2016-01-08 22:04:15,683] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-4.txt
+[2016-01-08 22:04:15,683] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:04:15,684] [libs.DNARebuild] [INFO] Saving results in file results/D500-4.txt
+[2016-01-08 22:04:15,684] [root] [INFO] File D4000-4.txt found
+[2016-01-08 22:04:15,684] [root] [INFO] Skipping file D4000-4.txt
+[2016-01-08 22:04:15,684] [root] [INFO] File D1500-2.txt found
+[2016-01-08 22:04:15,684] [root] [INFO] Starting file D1500-2.txt
+[2016-01-08 22:04:16,686] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-2.txt
+[2016-01-08 22:04:16,693] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:04:16,694] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-2.dzn
+[2016-01-08 22:04:16,694] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:04:16,694] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D1500-2.dzn'. This could take some time
+[2016-01-08 22:04:42,140] [libs.MiniZinc] [INFO] Command executed successfully. It takes 25.4454891682 seconds to complete.
+[2016-01-08 22:04:42,141] [libs.MiniZinc] [INFO] Saving stats in stats/D1500-2.json.
+[2016-01-08 22:04:42,141] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:04:42,142] [libs.MiniZinc] [INFO] Saving data model in data_models/D1500-2.txt
+[2016-01-08 22:04:42,142] [libs.MiniZinc] [INFO] File data_models/D1500-2.txt created successfully
+[2016-01-08 22:04:42,142] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-2.txt
+[2016-01-08 22:04:42,143] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 22:04:42,143] [libs.DNARebuild] [INFO] Saving results in file results/D1500-2.txt
+[2016-01-08 22:04:42,143] [root] [INFO] File D2000-4.txt found
+[2016-01-08 22:04:42,144] [root] [INFO] Skipping file D2000-4.txt
+[2016-01-08 22:04:42,144] [root] [INFO] File D6000-5.txt found
+[2016-01-08 22:04:42,144] [root] [INFO] Skipping file D6000-5.txt
+[2016-01-08 22:04:42,144] [root] [INFO] File D4000-3.txt found
+[2016-01-08 22:04:42,145] [root] [INFO] Skipping file D4000-3.txt
