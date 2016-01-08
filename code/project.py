@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.DEBUG,
                     format='[%(asctime)s] [%(name)s] [%(levelname)s] %(message)s',
                     # datefmt='%m-%d %H:%M',
                     filename=logfile,
-                    filemode='w')
+                    filemode='a')
 # define a Handler which writes INFO messages or higher to the sys.stderr
 console = logging.StreamHandler()
 console.setLevel(logging.INFO)
