@@ -351,3 +351,995 @@
 [2016-01-08 22:04:42,144] [root] [INFO] Skipping file D6000-5.txt
 [2016-01-08 22:04:42,144] [root] [INFO] File D4000-3.txt found
 [2016-01-08 22:04:42,145] [root] [INFO] Skipping file D4000-3.txt
+[2016-01-08 22:15:03,264] [libs.DataBuild] [DEBUG] Setting DataBuild
+[2016-01-08 22:15:03,264] [libs.MiniZinc] [DEBUG] Setting MiniZinc command
+[2016-01-08 22:15:03,265] [libs.DNARebuild] [DEBUG] Setting DNARebuild
+[2016-01-08 22:15:03,265] [root] [INFO] File D2000-5.txt found
+[2016-01-08 22:15:03,265] [root] [INFO] Starting file D2000-5.txt
+[2016-01-08 22:15:04,266] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-5.txt
+[2016-01-08 22:15:04,275] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:15:04,275] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-5.dzn
+[2016-01-08 22:15:04,276] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:15:04,276] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D2000-5.dzn'. This could take some time
+[2016-01-08 22:19:21,978] [libs.MiniZinc] [INFO] Command executed successfully. It takes 257.701812983 seconds to complete.
+[2016-01-08 22:19:21,994] [libs.MiniZinc] [INFO] Saving stats in stats/D2000-5.json.
+[2016-01-08 22:19:21,995] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:19:21,995] [libs.MiniZinc] [INFO] Saving data model in data_models/D2000-5.txt
+[2016-01-08 22:19:21,996] [libs.MiniZinc] [INFO] File data_models/D2000-5.txt created successfully
+[2016-01-08 22:19:21,996] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-5.txt
+[2016-01-08 22:19:21,997] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 22:19:21,997] [libs.DNARebuild] [INFO] Saving results in file results/D2000-5.txt
+[2016-01-08 22:19:21,997] [root] [INFO] File D5000-1.txt found
+[2016-01-08 22:19:21,998] [root] [INFO] Skipping file D5000-1.txt
+[2016-01-08 22:19:21,998] [root] [INFO] File D500-1.txt found
+[2016-01-08 22:19:21,998] [root] [INFO] Starting file D500-1.txt
+[2016-01-08 22:19:23,001] [libs.DataBuild] [INFO] Reading raw data from file data/D500-1.txt
+[2016-01-08 22:19:23,005] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:19:23,005] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-1.dzn
+[2016-01-08 22:19:23,006] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:19:23,006] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-1.txt already exist and skip option is True
+[2016-01-08 22:19:23,006] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-1.txt
+[2016-01-08 22:19:23,007] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:19:23,007] [libs.DNARebuild] [INFO] Saving results in file results/D500-1.txt
+[2016-01-08 22:19:23,007] [root] [INFO] File D500-2.txt found
+[2016-01-08 22:19:23,007] [root] [INFO] Starting file D500-2.txt
+[2016-01-08 22:19:24,009] [libs.DataBuild] [INFO] Reading raw data from file data/D500-2.txt
+[2016-01-08 22:19:24,013] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:19:24,013] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-2.dzn
+[2016-01-08 22:19:24,014] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:19:24,014] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-2.txt already exist and skip option is True
+[2016-01-08 22:19:24,015] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-2.txt
+[2016-01-08 22:19:24,015] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:19:24,015] [libs.DNARebuild] [INFO] Saving results in file results/D500-2.txt
+[2016-01-08 22:19:24,016] [root] [INFO] File D200-2.txt found
+[2016-01-08 22:19:24,016] [root] [INFO] Starting file D200-2.txt
+[2016-01-08 22:19:25,017] [libs.DataBuild] [INFO] Reading raw data from file data/D200-2.txt
+[2016-01-08 22:19:25,019] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:19:25,019] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-2.dzn
+[2016-01-08 22:19:25,019] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:19:25,020] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-2.txt already exist and skip option is True
+[2016-01-08 22:19:25,020] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-2.txt
+[2016-01-08 22:19:25,021] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 22:19:25,021] [libs.DNARebuild] [INFO] Saving results in file results/D200-2.txt
+[2016-01-08 22:19:25,021] [root] [INFO] File D4000-2.txt found
+[2016-01-08 22:19:25,022] [root] [INFO] Skipping file D4000-2.txt
+[2016-01-08 22:19:25,022] [root] [INFO] File D1000-4.txt found
+[2016-01-08 22:19:25,022] [root] [INFO] Starting file D1000-4.txt
+[2016-01-08 22:19:26,024] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-4.txt
+[2016-01-08 22:19:26,030] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:19:26,031] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-4.dzn
+[2016-01-08 22:19:26,031] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:19:26,031] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-4.txt already exist and skip option is True
+[2016-01-08 22:19:26,031] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-4.txt
+[2016-01-08 22:19:26,032] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:19:26,032] [libs.DNARebuild] [INFO] Saving results in file results/D1000-4.txt
+[2016-01-08 22:19:26,032] [root] [INFO] File D3000-3.txt found
+[2016-01-08 22:19:26,032] [root] [INFO] Skipping file D3000-3.txt
+[2016-01-08 22:19:26,032] [root] [INFO] File D1000-1.txt found
+[2016-01-08 22:19:26,032] [root] [INFO] Starting file D1000-1.txt
+[2016-01-08 22:19:27,034] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-1.txt
+[2016-01-08 22:19:27,043] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:19:27,044] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-1.dzn
+[2016-01-08 22:19:27,045] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:19:27,045] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-1.txt already exist and skip option is True
+[2016-01-08 22:19:27,046] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-1.txt
+[2016-01-08 22:19:27,046] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:19:27,047] [libs.DNARebuild] [INFO] Saving results in file results/D1000-1.txt
+[2016-01-08 22:19:27,047] [root] [INFO] File D5000-3.txt found
+[2016-01-08 22:19:27,047] [root] [INFO] Skipping file D5000-3.txt
+[2016-01-08 22:19:27,047] [root] [INFO] File D2000-2.txt found
+[2016-01-08 22:19:27,047] [root] [INFO] Starting file D2000-2.txt
+[2016-01-08 22:19:28,049] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-2.txt
+[2016-01-08 22:19:28,058] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:19:28,059] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-2.dzn
+[2016-01-08 22:19:28,059] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:19:28,059] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D2000-2.dzn'. This could take some time
+[2016-01-08 22:33:34,915] [libs.MiniZinc] [INFO] Command executed successfully. It takes 846.855489969 seconds to complete.
+[2016-01-08 22:33:34,916] [libs.MiniZinc] [INFO] Saving stats in stats/D2000-2.json.
+[2016-01-08 22:33:34,916] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:33:34,917] [libs.MiniZinc] [INFO] Saving data model in data_models/D2000-2.txt
+[2016-01-08 22:33:34,917] [libs.MiniZinc] [INFO] File data_models/D2000-2.txt created successfully
+[2016-01-08 22:33:34,917] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-2.txt
+[2016-01-08 22:33:34,918] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:33:34,918] [libs.DNARebuild] [INFO] Saving results in file results/D2000-2.txt
+[2016-01-08 22:33:34,918] [root] [INFO] File D2000-3.txt found
+[2016-01-08 22:33:34,919] [root] [INFO] Starting file D2000-3.txt
+[2016-01-08 22:33:35,921] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-3.txt
+[2016-01-08 22:33:35,930] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:33:35,930] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-3.dzn
+[2016-01-08 22:33:35,931] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:33:35,931] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D2000-3.dzn'. This could take some time
+[2016-01-08 22:48:48,085] [libs.MiniZinc] [INFO] Command executed successfully. It takes 912.15341115 seconds to complete.
+[2016-01-08 22:48:48,085] [libs.MiniZinc] [INFO] Saving stats in stats/D2000-3.json.
+[2016-01-08 22:48:48,086] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:48:48,086] [libs.MiniZinc] [INFO] Saving data model in data_models/D2000-3.txt
+[2016-01-08 22:48:48,087] [libs.MiniZinc] [INFO] File data_models/D2000-3.txt created successfully
+[2016-01-08 22:48:48,087] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-3.txt
+[2016-01-08 22:48:48,087] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 22:48:48,088] [libs.DNARebuild] [INFO] Saving results in file results/D2000-3.txt
+[2016-01-08 22:48:48,088] [root] [INFO] File D500-5.txt found
+[2016-01-08 22:48:48,088] [root] [INFO] Starting file D500-5.txt
+[2016-01-08 22:48:49,090] [libs.DataBuild] [INFO] Reading raw data from file data/D500-5.txt
+[2016-01-08 22:48:49,092] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:48:49,093] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-5.dzn
+[2016-01-08 22:48:49,094] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:48:49,094] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-5.txt already exist and skip option is True
+[2016-01-08 22:48:49,094] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-5.txt
+[2016-01-08 22:48:49,095] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 22:48:49,095] [libs.DNARebuild] [INFO] Saving results in file results/D500-5.txt
+[2016-01-08 22:48:49,096] [root] [INFO] File D4000-5.txt found
+[2016-01-08 22:48:49,096] [root] [INFO] Skipping file D4000-5.txt
+[2016-01-08 22:48:49,096] [root] [INFO] File D500-3.txt found
+[2016-01-08 22:48:49,097] [root] [INFO] Starting file D500-3.txt
+[2016-01-08 22:48:50,098] [libs.DataBuild] [INFO] Reading raw data from file data/D500-3.txt
+[2016-01-08 22:48:50,103] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:48:50,103] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-3.dzn
+[2016-01-08 22:48:50,104] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:48:50,105] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-3.txt already exist and skip option is True
+[2016-01-08 22:48:50,105] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-3.txt
+[2016-01-08 22:48:50,105] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:48:50,106] [libs.DNARebuild] [INFO] Saving results in file results/D500-3.txt
+[2016-01-08 22:48:50,106] [root] [INFO] File D2000-1.txt found
+[2016-01-08 22:48:50,106] [root] [INFO] Starting file D2000-1.txt
+[2016-01-08 22:48:51,108] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-1.txt
+[2016-01-08 22:48:51,120] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:48:51,120] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-1.dzn
+[2016-01-08 22:48:51,121] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:48:51,121] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D2000-1.dzn'. This could take some time
+[2016-01-08 22:56:00,046] [libs.MiniZinc] [INFO] Command executed successfully. It takes 428.924827099 seconds to complete.
+[2016-01-08 22:56:00,047] [libs.MiniZinc] [INFO] Saving stats in stats/D2000-1.json.
+[2016-01-08 22:56:00,048] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:56:00,048] [libs.MiniZinc] [INFO] Saving data model in data_models/D2000-1.txt
+[2016-01-08 22:56:00,049] [libs.MiniZinc] [INFO] File data_models/D2000-1.txt created successfully
+[2016-01-08 22:56:00,049] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-1.txt
+[2016-01-08 22:56:00,050] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:00,050] [libs.DNARebuild] [INFO] Saving results in file results/D2000-1.txt
+[2016-01-08 22:56:00,051] [root] [INFO] File D200-5.txt found
+[2016-01-08 22:56:00,051] [root] [INFO] Starting file D200-5.txt
+[2016-01-08 22:56:01,053] [libs.DataBuild] [INFO] Reading raw data from file data/D200-5.txt
+[2016-01-08 22:56:01,056] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:01,056] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-5.dzn
+[2016-01-08 22:56:01,057] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:01,057] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-5.txt already exist and skip option is True
+[2016-01-08 22:56:01,057] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-5.txt
+[2016-01-08 22:56:01,058] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:01,058] [libs.DNARebuild] [INFO] Saving results in file results/D200-5.txt
+[2016-01-08 22:56:01,058] [root] [INFO] File D5000-5.txt found
+[2016-01-08 22:56:01,059] [root] [INFO] Skipping file D5000-5.txt
+[2016-01-08 22:56:01,059] [root] [INFO] File D1500-4.txt found
+[2016-01-08 22:56:01,059] [root] [INFO] Starting file D1500-4.txt
+[2016-01-08 22:56:02,061] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-4.txt
+[2016-01-08 22:56:02,073] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:02,074] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-4.dzn
+[2016-01-08 22:56:02,075] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:02,075] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-4.txt already exist and skip option is True
+[2016-01-08 22:56:02,075] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-4.txt
+[2016-01-08 22:56:02,076] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:02,076] [libs.DNARebuild] [INFO] Saving results in file results/D1500-4.txt
+[2016-01-08 22:56:02,076] [root] [INFO] File D6000-4.txt found
+[2016-01-08 22:56:02,076] [root] [INFO] Skipping file D6000-4.txt
+[2016-01-08 22:56:02,076] [root] [INFO] File D3000-5.txt found
+[2016-01-08 22:56:02,076] [root] [INFO] Skipping file D3000-5.txt
+[2016-01-08 22:56:02,076] [root] [INFO] File D5000-4.txt found
+[2016-01-08 22:56:02,076] [root] [INFO] Skipping file D5000-4.txt
+[2016-01-08 22:56:02,076] [root] [INFO] File D6000-3.txt found
+[2016-01-08 22:56:02,076] [root] [INFO] Skipping file D6000-3.txt
+[2016-01-08 22:56:02,077] [root] [INFO] File D1500-1.txt found
+[2016-01-08 22:56:02,077] [root] [INFO] Starting file D1500-1.txt
+[2016-01-08 22:56:03,079] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-1.txt
+[2016-01-08 22:56:03,089] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:03,090] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-1.dzn
+[2016-01-08 22:56:03,091] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:03,091] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-1.txt already exist and skip option is True
+[2016-01-08 22:56:03,091] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-1.txt
+[2016-01-08 22:56:03,091] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:03,092] [libs.DNARebuild] [INFO] Saving results in file results/D1500-1.txt
+[2016-01-08 22:56:03,092] [root] [INFO] File D200-3.txt found
+[2016-01-08 22:56:03,092] [root] [INFO] Starting file D200-3.txt
+[2016-01-08 22:56:04,094] [libs.DataBuild] [INFO] Reading raw data from file data/D200-3.txt
+[2016-01-08 22:56:04,097] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:04,097] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-3.dzn
+[2016-01-08 22:56:04,098] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:04,098] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-3.txt already exist and skip option is True
+[2016-01-08 22:56:04,099] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-3.txt
+[2016-01-08 22:56:04,099] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:04,100] [libs.DNARebuild] [INFO] Saving results in file results/D200-3.txt
+[2016-01-08 22:56:04,100] [root] [INFO] File D3000-2.txt found
+[2016-01-08 22:56:04,100] [root] [INFO] Skipping file D3000-2.txt
+[2016-01-08 22:56:04,100] [root] [INFO] File D5000-2.txt found
+[2016-01-08 22:56:04,101] [root] [INFO] Skipping file D5000-2.txt
+[2016-01-08 22:56:04,101] [root] [INFO] File D1000-3.txt found
+[2016-01-08 22:56:04,101] [root] [INFO] Starting file D1000-3.txt
+[2016-01-08 22:56:05,103] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-3.txt
+[2016-01-08 22:56:05,111] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:05,112] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-3.dzn
+[2016-01-08 22:56:05,112] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:05,112] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-3.txt already exist and skip option is True
+[2016-01-08 22:56:05,112] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-3.txt
+[2016-01-08 22:56:05,112] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:05,112] [libs.DNARebuild] [INFO] Saving results in file results/D1000-3.txt
+[2016-01-08 22:56:05,113] [root] [INFO] File D4000-1.txt found
+[2016-01-08 22:56:05,113] [root] [INFO] Skipping file D4000-1.txt
+[2016-01-08 22:56:05,113] [root] [INFO] File D200-4.txt found
+[2016-01-08 22:56:05,113] [root] [INFO] Starting file D200-4.txt
+[2016-01-08 22:56:06,114] [libs.DataBuild] [INFO] Reading raw data from file data/D200-4.txt
+[2016-01-08 22:56:06,115] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:06,115] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-4.dzn
+[2016-01-08 22:56:06,116] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:06,116] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-4.txt already exist and skip option is True
+[2016-01-08 22:56:06,116] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-4.txt
+[2016-01-08 22:56:06,117] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:06,117] [libs.DNARebuild] [INFO] Saving results in file results/D200-4.txt
+[2016-01-08 22:56:06,117] [root] [INFO] File D1500-5.txt found
+[2016-01-08 22:56:06,117] [root] [INFO] Starting file D1500-5.txt
+[2016-01-08 22:56:07,119] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-5.txt
+[2016-01-08 22:56:07,128] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:07,129] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-5.dzn
+[2016-01-08 22:56:07,129] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:07,129] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-5.txt already exist and skip option is True
+[2016-01-08 22:56:07,129] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-5.txt
+[2016-01-08 22:56:07,129] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:07,129] [libs.DNARebuild] [INFO] Saving results in file results/D1500-5.txt
+[2016-01-08 22:56:07,130] [root] [INFO] File D1500-3.txt found
+[2016-01-08 22:56:07,130] [root] [INFO] Starting file D1500-3.txt
+[2016-01-08 22:56:08,132] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-3.txt
+[2016-01-08 22:56:08,138] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:08,138] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-3.dzn
+[2016-01-08 22:56:08,138] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:08,138] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-3.txt already exist and skip option is True
+[2016-01-08 22:56:08,139] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-3.txt
+[2016-01-08 22:56:08,139] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:08,139] [libs.DNARebuild] [INFO] Saving results in file results/D1500-3.txt
+[2016-01-08 22:56:08,139] [root] [INFO] File D3000-4.txt found
+[2016-01-08 22:56:08,139] [root] [INFO] Skipping file D3000-4.txt
+[2016-01-08 22:56:08,139] [root] [INFO] File D1000-2.txt found
+[2016-01-08 22:56:08,139] [root] [INFO] Starting file D1000-2.txt
+[2016-01-08 22:56:09,141] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-2.txt
+[2016-01-08 22:56:09,150] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:09,150] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-2.dzn
+[2016-01-08 22:56:09,151] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:09,152] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-2.txt already exist and skip option is True
+[2016-01-08 22:56:09,152] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-2.txt
+[2016-01-08 22:56:09,152] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 22:56:09,153] [libs.DNARebuild] [INFO] Saving results in file results/D1000-2.txt
+[2016-01-08 22:56:09,153] [root] [INFO] File D3000-1.txt found
+[2016-01-08 22:56:09,153] [root] [INFO] Skipping file D3000-1.txt
+[2016-01-08 22:56:09,154] [root] [INFO] File D6000-2.txt found
+[2016-01-08 22:56:09,154] [root] [INFO] Skipping file D6000-2.txt
+[2016-01-08 22:56:09,154] [root] [INFO] File D200-1.txt found
+[2016-01-08 22:56:09,154] [root] [INFO] Starting file D200-1.txt
+[2016-01-08 22:56:10,156] [libs.DataBuild] [INFO] Reading raw data from file data/D200-1.txt
+[2016-01-08 22:56:10,158] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:10,159] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-1.dzn
+[2016-01-08 22:56:10,160] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:10,160] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-1.txt already exist and skip option is True
+[2016-01-08 22:56:10,160] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-1.txt
+[2016-01-08 22:56:10,161] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:10,161] [libs.DNARebuild] [INFO] Saving results in file results/D200-1.txt
+[2016-01-08 22:56:10,161] [root] [INFO] File D1000-5.txt found
+[2016-01-08 22:56:10,161] [root] [INFO] Starting file D1000-5.txt
+[2016-01-08 22:56:11,163] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-5.txt
+[2016-01-08 22:56:11,171] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:11,172] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-5.dzn
+[2016-01-08 22:56:11,172] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:11,172] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-5.txt already exist and skip option is True
+[2016-01-08 22:56:11,172] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-5.txt
+[2016-01-08 22:56:11,172] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:11,172] [libs.DNARebuild] [INFO] Saving results in file results/D1000-5.txt
+[2016-01-08 22:56:11,172] [root] [INFO] File D6000-1.txt found
+[2016-01-08 22:56:11,173] [root] [INFO] Skipping file D6000-1.txt
+[2016-01-08 22:56:11,173] [root] [INFO] File D500-4.txt found
+[2016-01-08 22:56:11,173] [root] [INFO] Starting file D500-4.txt
+[2016-01-08 22:56:12,174] [libs.DataBuild] [INFO] Reading raw data from file data/D500-4.txt
+[2016-01-08 22:56:12,179] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:12,179] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-4.dzn
+[2016-01-08 22:56:12,180] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:12,180] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-4.txt already exist and skip option is True
+[2016-01-08 22:56:12,180] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-4.txt
+[2016-01-08 22:56:12,180] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:56:12,180] [libs.DNARebuild] [INFO] Saving results in file results/D500-4.txt
+[2016-01-08 22:56:12,180] [root] [INFO] File D4000-4.txt found
+[2016-01-08 22:56:12,180] [root] [INFO] Skipping file D4000-4.txt
+[2016-01-08 22:56:12,180] [root] [INFO] File D1500-2.txt found
+[2016-01-08 22:56:12,180] [root] [INFO] Starting file D1500-2.txt
+[2016-01-08 22:56:13,182] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-2.txt
+[2016-01-08 22:56:13,189] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:13,190] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-2.dzn
+[2016-01-08 22:56:13,190] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:13,190] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-2.txt already exist and skip option is True
+[2016-01-08 22:56:13,190] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-2.txt
+[2016-01-08 22:56:13,190] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 22:56:13,190] [libs.DNARebuild] [INFO] Saving results in file results/D1500-2.txt
+[2016-01-08 22:56:13,191] [root] [INFO] File D2000-4.txt found
+[2016-01-08 22:56:13,191] [root] [INFO] Starting file D2000-4.txt
+[2016-01-08 22:56:14,193] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-4.txt
+[2016-01-08 22:56:14,208] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 22:56:14,208] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-4.dzn
+[2016-01-08 22:56:14,209] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 22:56:14,209] [libs.MiniZinc] [INFO] Running: 'mzn-g12fd DNA_model.mzn data_processed/D2000-4.dzn'. This could take some time
+[2016-01-08 22:57:39,414] [libs.MiniZinc] [INFO] Command executed successfully. It takes 85.2049648762 seconds to complete.
+[2016-01-08 22:57:39,414] [libs.MiniZinc] [INFO] Saving stats in stats/D2000-4.json.
+[2016-01-08 22:57:39,414] [libs.MiniZinc] [INFO] Stats saved
+[2016-01-08 22:57:39,414] [libs.MiniZinc] [INFO] Saving data model in data_models/D2000-4.txt
+[2016-01-08 22:57:39,414] [libs.MiniZinc] [INFO] File data_models/D2000-4.txt created successfully
+[2016-01-08 22:57:39,415] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-4.txt
+[2016-01-08 22:57:39,415] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 22:57:39,415] [libs.DNARebuild] [INFO] Saving results in file results/D2000-4.txt
+[2016-01-08 22:57:39,415] [root] [INFO] File D6000-5.txt found
+[2016-01-08 22:57:39,415] [root] [INFO] Skipping file D6000-5.txt
+[2016-01-08 22:57:39,415] [root] [INFO] File D4000-3.txt found
+[2016-01-08 22:57:39,415] [root] [INFO] Skipping file D4000-3.txt
+[2016-01-08 23:02:27,230] [libs.DataBuild] [DEBUG] Setting DataBuild
+[2016-01-08 23:02:27,230] [libs.MiniZinc] [DEBUG] Setting MiniZinc command
+[2016-01-08 23:02:27,230] [libs.DNARebuild] [DEBUG] Setting DNARebuild
+[2016-01-08 23:02:27,230] [root] [INFO] File D2000-5.txt found
+[2016-01-08 23:02:27,230] [root] [INFO] Starting file D2000-5.txt
+[2016-01-08 23:02:28,232] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-5.txt
+[2016-01-08 23:02:28,248] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:28,248] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-5.dzn
+[2016-01-08 23:02:28,249] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:28,249] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-5.txt already exist and skip option is True
+[2016-01-08 23:02:28,249] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-5.txt
+[2016-01-08 23:02:28,249] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:02:28,249] [libs.DNARebuild] [INFO] Saving results in file results/D2000-5.txt
+[2016-01-08 23:02:28,249] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D2000-5.txt
+[2016-01-08 23:02:28,249] [root] [INFO] File D5000-1.txt found
+[2016-01-08 23:02:28,249] [root] [INFO] Skipping file D5000-1.txt
+[2016-01-08 23:02:28,249] [root] [INFO] File D500-1.txt found
+[2016-01-08 23:02:28,250] [root] [INFO] Starting file D500-1.txt
+[2016-01-08 23:02:29,252] [libs.DataBuild] [INFO] Reading raw data from file data/D500-1.txt
+[2016-01-08 23:02:29,256] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:29,256] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-1.dzn
+[2016-01-08 23:02:29,256] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:29,256] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-1.txt already exist and skip option is True
+[2016-01-08 23:02:29,256] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-1.txt
+[2016-01-08 23:02:29,256] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:29,256] [libs.DNARebuild] [INFO] Saving results in file results/D500-1.txt
+[2016-01-08 23:02:29,257] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D500-1.txt
+[2016-01-08 23:02:29,257] [root] [INFO] File D500-2.txt found
+[2016-01-08 23:02:29,257] [root] [INFO] Starting file D500-2.txt
+[2016-01-08 23:02:30,258] [libs.DataBuild] [INFO] Reading raw data from file data/D500-2.txt
+[2016-01-08 23:02:30,263] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:30,263] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-2.dzn
+[2016-01-08 23:02:30,264] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:30,264] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-2.txt already exist and skip option is True
+[2016-01-08 23:02:30,264] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-2.txt
+[2016-01-08 23:02:30,264] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:30,264] [libs.DNARebuild] [INFO] Saving results in file results/D500-2.txt
+[2016-01-08 23:02:30,264] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D500-2.txt
+[2016-01-08 23:02:30,264] [root] [INFO] File D200-2.txt found
+[2016-01-08 23:02:30,264] [root] [INFO] Starting file D200-2.txt
+[2016-01-08 23:02:31,266] [libs.DataBuild] [INFO] Reading raw data from file data/D200-2.txt
+[2016-01-08 23:02:31,266] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:31,267] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-2.dzn
+[2016-01-08 23:02:31,267] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:31,267] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-2.txt already exist and skip option is True
+[2016-01-08 23:02:31,267] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-2.txt
+[2016-01-08 23:02:31,267] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:02:31,267] [libs.DNARebuild] [INFO] Saving results in file results/D200-2.txt
+[2016-01-08 23:02:31,268] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D200-2.txt
+[2016-01-08 23:02:31,268] [root] [INFO] File D4000-2.txt found
+[2016-01-08 23:02:31,268] [root] [INFO] Skipping file D4000-2.txt
+[2016-01-08 23:02:31,268] [root] [INFO] File D1000-4.txt found
+[2016-01-08 23:02:31,269] [root] [INFO] Starting file D1000-4.txt
+[2016-01-08 23:02:32,270] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-4.txt
+[2016-01-08 23:02:32,279] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:32,279] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-4.dzn
+[2016-01-08 23:02:32,280] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:32,280] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-4.txt already exist and skip option is True
+[2016-01-08 23:02:32,280] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-4.txt
+[2016-01-08 23:02:32,280] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:32,280] [libs.DNARebuild] [INFO] Saving results in file results/D1000-4.txt
+[2016-01-08 23:02:32,280] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D1000-4.txt
+[2016-01-08 23:02:32,280] [root] [INFO] File D3000-3.txt found
+[2016-01-08 23:02:32,280] [root] [INFO] Skipping file D3000-3.txt
+[2016-01-08 23:02:32,281] [root] [INFO] File D1000-1.txt found
+[2016-01-08 23:02:32,281] [root] [INFO] Starting file D1000-1.txt
+[2016-01-08 23:02:33,282] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-1.txt
+[2016-01-08 23:02:33,288] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:33,288] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-1.dzn
+[2016-01-08 23:02:33,288] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:33,288] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-1.txt already exist and skip option is True
+[2016-01-08 23:02:33,288] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-1.txt
+[2016-01-08 23:02:33,289] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:33,289] [libs.DNARebuild] [INFO] Saving results in file results/D1000-1.txt
+[2016-01-08 23:02:33,289] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D1000-1.txt
+[2016-01-08 23:02:33,289] [root] [INFO] File D5000-3.txt found
+[2016-01-08 23:02:33,289] [root] [INFO] Skipping file D5000-3.txt
+[2016-01-08 23:02:33,289] [root] [INFO] File D2000-2.txt found
+[2016-01-08 23:02:33,289] [root] [INFO] Starting file D2000-2.txt
+[2016-01-08 23:02:34,291] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-2.txt
+[2016-01-08 23:02:34,306] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:34,306] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-2.dzn
+[2016-01-08 23:02:34,307] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:34,307] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-2.txt already exist and skip option is True
+[2016-01-08 23:02:34,307] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-2.txt
+[2016-01-08 23:02:34,308] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:34,308] [libs.DNARebuild] [INFO] Saving results in file results/D2000-2.txt
+[2016-01-08 23:02:34,308] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D2000-2.txt
+[2016-01-08 23:02:34,308] [root] [INFO] File D2000-3.txt found
+[2016-01-08 23:02:34,308] [root] [INFO] Starting file D2000-3.txt
+[2016-01-08 23:02:35,310] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-3.txt
+[2016-01-08 23:02:35,317] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:35,318] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-3.dzn
+[2016-01-08 23:02:35,318] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:35,318] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-3.txt already exist and skip option is True
+[2016-01-08 23:02:35,318] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-3.txt
+[2016-01-08 23:02:35,318] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:02:35,318] [libs.DNARebuild] [INFO] Saving results in file results/D2000-3.txt
+[2016-01-08 23:02:35,318] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D2000-3.txt
+[2016-01-08 23:02:35,319] [root] [INFO] File D500-5.txt found
+[2016-01-08 23:02:35,319] [root] [INFO] Starting file D500-5.txt
+[2016-01-08 23:02:36,321] [libs.DataBuild] [INFO] Reading raw data from file data/D500-5.txt
+[2016-01-08 23:02:36,325] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:36,326] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-5.dzn
+[2016-01-08 23:02:36,327] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:36,327] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-5.txt already exist and skip option is True
+[2016-01-08 23:02:36,327] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-5.txt
+[2016-01-08 23:02:36,328] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:02:36,328] [libs.DNARebuild] [INFO] Saving results in file results/D500-5.txt
+[2016-01-08 23:02:36,328] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D500-5.txt
+[2016-01-08 23:02:36,328] [root] [INFO] File D4000-5.txt found
+[2016-01-08 23:02:36,329] [root] [INFO] Skipping file D4000-5.txt
+[2016-01-08 23:02:36,329] [root] [INFO] File D500-3.txt found
+[2016-01-08 23:02:36,329] [root] [INFO] Starting file D500-3.txt
+[2016-01-08 23:02:37,331] [libs.DataBuild] [INFO] Reading raw data from file data/D500-3.txt
+[2016-01-08 23:02:37,335] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:37,336] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-3.dzn
+[2016-01-08 23:02:37,337] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:37,337] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-3.txt already exist and skip option is True
+[2016-01-08 23:02:37,337] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-3.txt
+[2016-01-08 23:02:37,338] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:37,338] [libs.DNARebuild] [INFO] Saving results in file results/D500-3.txt
+[2016-01-08 23:02:37,338] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D500-3.txt
+[2016-01-08 23:02:37,338] [root] [INFO] File D2000-1.txt found
+[2016-01-08 23:02:37,339] [root] [INFO] Starting file D2000-1.txt
+[2016-01-08 23:02:38,340] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-1.txt
+[2016-01-08 23:02:38,353] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:38,353] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-1.dzn
+[2016-01-08 23:02:38,354] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:38,354] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-1.txt already exist and skip option is True
+[2016-01-08 23:02:38,354] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-1.txt
+[2016-01-08 23:02:38,354] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:38,354] [libs.DNARebuild] [INFO] Saving results in file results/D2000-1.txt
+[2016-01-08 23:02:38,354] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D2000-1.txt
+[2016-01-08 23:02:38,354] [root] [INFO] File D200-5.txt found
+[2016-01-08 23:02:38,354] [root] [INFO] Starting file D200-5.txt
+[2016-01-08 23:02:39,357] [libs.DataBuild] [INFO] Reading raw data from file data/D200-5.txt
+[2016-01-08 23:02:39,359] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:39,359] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-5.dzn
+[2016-01-08 23:02:39,360] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:39,360] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-5.txt already exist and skip option is True
+[2016-01-08 23:02:39,361] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-5.txt
+[2016-01-08 23:02:39,361] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:39,361] [libs.DNARebuild] [INFO] Saving results in file results/D200-5.txt
+[2016-01-08 23:02:39,362] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D200-5.txt
+[2016-01-08 23:02:39,362] [root] [INFO] File D5000-5.txt found
+[2016-01-08 23:02:39,362] [root] [INFO] Skipping file D5000-5.txt
+[2016-01-08 23:02:39,362] [root] [INFO] File D1500-4.txt found
+[2016-01-08 23:02:39,363] [root] [INFO] Starting file D1500-4.txt
+[2016-01-08 23:02:40,364] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-4.txt
+[2016-01-08 23:02:40,377] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:40,377] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-4.dzn
+[2016-01-08 23:02:40,378] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:40,379] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-4.txt already exist and skip option is True
+[2016-01-08 23:02:40,379] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-4.txt
+[2016-01-08 23:02:40,379] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:40,379] [libs.DNARebuild] [INFO] Saving results in file results/D1500-4.txt
+[2016-01-08 23:02:40,380] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D1500-4.txt
+[2016-01-08 23:02:40,380] [root] [INFO] File D6000-4.txt found
+[2016-01-08 23:02:40,380] [root] [INFO] Skipping file D6000-4.txt
+[2016-01-08 23:02:40,380] [root] [INFO] File D3000-5.txt found
+[2016-01-08 23:02:40,380] [root] [INFO] Skipping file D3000-5.txt
+[2016-01-08 23:02:40,380] [root] [INFO] File D5000-4.txt found
+[2016-01-08 23:02:40,380] [root] [INFO] Skipping file D5000-4.txt
+[2016-01-08 23:02:40,380] [root] [INFO] File D6000-3.txt found
+[2016-01-08 23:02:40,380] [root] [INFO] Skipping file D6000-3.txt
+[2016-01-08 23:02:40,380] [root] [INFO] File D1500-1.txt found
+[2016-01-08 23:02:40,380] [root] [INFO] Starting file D1500-1.txt
+[2016-01-08 23:02:41,382] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-1.txt
+[2016-01-08 23:02:41,388] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:41,389] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-1.dzn
+[2016-01-08 23:02:41,389] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:41,389] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-1.txt already exist and skip option is True
+[2016-01-08 23:02:41,389] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-1.txt
+[2016-01-08 23:02:41,389] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:41,390] [libs.DNARebuild] [INFO] Saving results in file results/D1500-1.txt
+[2016-01-08 23:02:41,390] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D1500-1.txt
+[2016-01-08 23:02:41,390] [root] [INFO] File D200-3.txt found
+[2016-01-08 23:02:41,390] [root] [INFO] Starting file D200-3.txt
+[2016-01-08 23:02:42,392] [libs.DataBuild] [INFO] Reading raw data from file data/D200-3.txt
+[2016-01-08 23:02:42,394] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:42,395] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-3.dzn
+[2016-01-08 23:02:42,395] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:42,395] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-3.txt already exist and skip option is True
+[2016-01-08 23:02:42,396] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-3.txt
+[2016-01-08 23:02:42,396] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:42,396] [libs.DNARebuild] [INFO] Saving results in file results/D200-3.txt
+[2016-01-08 23:02:42,396] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D200-3.txt
+[2016-01-08 23:02:42,396] [root] [INFO] File D3000-2.txt found
+[2016-01-08 23:02:42,396] [root] [INFO] Skipping file D3000-2.txt
+[2016-01-08 23:02:42,396] [root] [INFO] File D5000-2.txt found
+[2016-01-08 23:02:42,396] [root] [INFO] Skipping file D5000-2.txt
+[2016-01-08 23:02:42,396] [root] [INFO] File D1000-3.txt found
+[2016-01-08 23:02:42,396] [root] [INFO] Starting file D1000-3.txt
+[2016-01-08 23:02:43,398] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-3.txt
+[2016-01-08 23:02:43,403] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:43,403] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-3.dzn
+[2016-01-08 23:02:43,404] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:43,404] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-3.txt already exist and skip option is True
+[2016-01-08 23:02:43,404] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-3.txt
+[2016-01-08 23:02:43,404] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:43,404] [libs.DNARebuild] [INFO] Saving results in file results/D1000-3.txt
+[2016-01-08 23:02:43,404] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D1000-3.txt
+[2016-01-08 23:02:43,404] [root] [INFO] File D4000-1.txt found
+[2016-01-08 23:02:43,404] [root] [INFO] Skipping file D4000-1.txt
+[2016-01-08 23:02:43,404] [root] [INFO] File D200-4.txt found
+[2016-01-08 23:02:43,405] [root] [INFO] Starting file D200-4.txt
+[2016-01-08 23:02:44,406] [libs.DataBuild] [INFO] Reading raw data from file data/D200-4.txt
+[2016-01-08 23:02:44,409] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:44,409] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-4.dzn
+[2016-01-08 23:02:44,410] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:44,410] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-4.txt already exist and skip option is True
+[2016-01-08 23:02:44,410] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-4.txt
+[2016-01-08 23:02:44,411] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:44,411] [libs.DNARebuild] [INFO] Saving results in file results/D200-4.txt
+[2016-01-08 23:02:44,411] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D200-4.txt
+[2016-01-08 23:02:44,411] [root] [INFO] File D1500-5.txt found
+[2016-01-08 23:02:44,411] [root] [INFO] Starting file D1500-5.txt
+[2016-01-08 23:02:45,413] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-5.txt
+[2016-01-08 23:02:45,421] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:45,421] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-5.dzn
+[2016-01-08 23:02:45,421] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:45,422] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-5.txt already exist and skip option is True
+[2016-01-08 23:02:45,422] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-5.txt
+[2016-01-08 23:02:45,422] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:45,422] [libs.DNARebuild] [INFO] Saving results in file results/D1500-5.txt
+[2016-01-08 23:02:45,422] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D1500-5.txt
+[2016-01-08 23:02:45,422] [root] [INFO] File D1500-3.txt found
+[2016-01-08 23:02:45,422] [root] [INFO] Starting file D1500-3.txt
+[2016-01-08 23:02:46,424] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-3.txt
+[2016-01-08 23:02:46,437] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:46,437] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-3.dzn
+[2016-01-08 23:02:46,439] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:46,439] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-3.txt already exist and skip option is True
+[2016-01-08 23:02:46,439] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-3.txt
+[2016-01-08 23:02:46,440] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:46,440] [libs.DNARebuild] [INFO] Saving results in file results/D1500-3.txt
+[2016-01-08 23:02:46,440] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D1500-3.txt
+[2016-01-08 23:02:46,440] [root] [INFO] File D3000-4.txt found
+[2016-01-08 23:02:46,440] [root] [INFO] Skipping file D3000-4.txt
+[2016-01-08 23:02:46,440] [root] [INFO] File D1000-2.txt found
+[2016-01-08 23:02:46,440] [root] [INFO] Starting file D1000-2.txt
+[2016-01-08 23:02:47,442] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-2.txt
+[2016-01-08 23:02:47,448] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:47,448] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-2.dzn
+[2016-01-08 23:02:47,449] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:47,449] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-2.txt already exist and skip option is True
+[2016-01-08 23:02:47,449] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-2.txt
+[2016-01-08 23:02:47,449] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:02:47,449] [libs.DNARebuild] [INFO] Saving results in file results/D1000-2.txt
+[2016-01-08 23:02:47,449] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D1000-2.txt
+[2016-01-08 23:02:47,449] [root] [INFO] File D3000-1.txt found
+[2016-01-08 23:02:47,449] [root] [INFO] Skipping file D3000-1.txt
+[2016-01-08 23:02:47,449] [root] [INFO] File D6000-2.txt found
+[2016-01-08 23:02:47,450] [root] [INFO] Skipping file D6000-2.txt
+[2016-01-08 23:02:47,450] [root] [INFO] File D200-1.txt found
+[2016-01-08 23:02:47,450] [root] [INFO] Starting file D200-1.txt
+[2016-01-08 23:02:48,452] [libs.DataBuild] [INFO] Reading raw data from file data/D200-1.txt
+[2016-01-08 23:02:48,454] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:48,454] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-1.dzn
+[2016-01-08 23:02:48,455] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:48,455] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-1.txt already exist and skip option is True
+[2016-01-08 23:02:48,455] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-1.txt
+[2016-01-08 23:02:48,456] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:48,456] [libs.DNARebuild] [INFO] Saving results in file results/D200-1.txt
+[2016-01-08 23:02:48,456] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D200-1.txt
+[2016-01-08 23:02:48,456] [root] [INFO] File D1000-5.txt found
+[2016-01-08 23:02:48,456] [root] [INFO] Starting file D1000-5.txt
+[2016-01-08 23:02:49,457] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-5.txt
+[2016-01-08 23:02:49,464] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:49,464] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-5.dzn
+[2016-01-08 23:02:49,465] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:49,465] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-5.txt already exist and skip option is True
+[2016-01-08 23:02:49,465] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-5.txt
+[2016-01-08 23:02:49,465] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:49,465] [libs.DNARebuild] [INFO] Saving results in file results/D1000-5.txt
+[2016-01-08 23:02:49,465] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D1000-5.txt
+[2016-01-08 23:02:49,465] [root] [INFO] File D6000-1.txt found
+[2016-01-08 23:02:49,465] [root] [INFO] Skipping file D6000-1.txt
+[2016-01-08 23:02:49,465] [root] [INFO] File D500-4.txt found
+[2016-01-08 23:02:49,466] [root] [INFO] Starting file D500-4.txt
+[2016-01-08 23:02:50,467] [libs.DataBuild] [INFO] Reading raw data from file data/D500-4.txt
+[2016-01-08 23:02:50,471] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:50,472] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-4.dzn
+[2016-01-08 23:02:50,472] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:50,472] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-4.txt already exist and skip option is True
+[2016-01-08 23:02:50,472] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-4.txt
+[2016-01-08 23:02:50,472] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:50,472] [libs.DNARebuild] [INFO] Saving results in file results/D500-4.txt
+[2016-01-08 23:02:50,472] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D500-4.txt
+[2016-01-08 23:02:50,472] [root] [INFO] File D4000-4.txt found
+[2016-01-08 23:02:50,473] [root] [INFO] Skipping file D4000-4.txt
+[2016-01-08 23:02:50,473] [root] [INFO] File D1500-2.txt found
+[2016-01-08 23:02:50,473] [root] [INFO] Starting file D1500-2.txt
+[2016-01-08 23:02:51,474] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-2.txt
+[2016-01-08 23:02:51,481] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:51,481] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-2.dzn
+[2016-01-08 23:02:51,481] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:51,482] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-2.txt already exist and skip option is True
+[2016-01-08 23:02:51,482] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-2.txt
+[2016-01-08 23:02:51,482] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:02:51,482] [libs.DNARebuild] [INFO] Saving results in file results/D1500-2.txt
+[2016-01-08 23:02:51,482] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D1500-2.txt
+[2016-01-08 23:02:51,482] [root] [INFO] File D2000-4.txt found
+[2016-01-08 23:02:51,482] [root] [INFO] Starting file D2000-4.txt
+[2016-01-08 23:02:52,484] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-4.txt
+[2016-01-08 23:02:52,500] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:02:52,500] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-4.dzn
+[2016-01-08 23:02:52,501] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:02:52,501] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-4.txt already exist and skip option is True
+[2016-01-08 23:02:52,501] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-4.txt
+[2016-01-08 23:02:52,501] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:02:52,501] [libs.DNARebuild] [INFO] Saving results in file results/D2000-4.txt
+[2016-01-08 23:02:52,501] [libs.DNARebuild] [ERROR] Something was wrong saving the file results/D2000-4.txt
+[2016-01-08 23:02:52,501] [root] [INFO] File D6000-5.txt found
+[2016-01-08 23:02:52,501] [root] [INFO] Skipping file D6000-5.txt
+[2016-01-08 23:02:52,501] [root] [INFO] File D4000-3.txt found
+[2016-01-08 23:02:52,501] [root] [INFO] Skipping file D4000-3.txt
+[2016-01-08 23:03:12,841] [libs.DataBuild] [DEBUG] Setting DataBuild
+[2016-01-08 23:03:12,841] [libs.MiniZinc] [DEBUG] Setting MiniZinc command
+[2016-01-08 23:03:12,841] [libs.DNARebuild] [DEBUG] Setting DNARebuild
+[2016-01-08 23:03:12,842] [root] [INFO] File D2000-5.txt found
+[2016-01-08 23:03:12,842] [root] [INFO] Starting file D2000-5.txt
+[2016-01-08 23:03:13,843] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-5.txt
+[2016-01-08 23:03:13,851] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:03:13,851] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-5.dzn
+[2016-01-08 23:03:13,852] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:03:13,852] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-5.txt already exist and skip option is True
+[2016-01-08 23:03:13,852] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-5.txt
+[2016-01-08 23:03:13,852] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:06:16,411] [root] [ERROR] Something was wrong with file data/D2000-5.txt
+[2016-01-08 23:06:25,763] [libs.DataBuild] [DEBUG] Setting DataBuild
+[2016-01-08 23:06:25,763] [libs.MiniZinc] [DEBUG] Setting MiniZinc command
+[2016-01-08 23:06:25,763] [libs.DNARebuild] [DEBUG] Setting DNARebuild
+[2016-01-08 23:06:25,763] [root] [INFO] File D2000-5.txt found
+[2016-01-08 23:06:25,763] [root] [INFO] Starting file D2000-5.txt
+[2016-01-08 23:06:26,765] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-5.txt
+[2016-01-08 23:06:26,774] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:26,775] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-5.dzn
+[2016-01-08 23:06:26,775] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:26,775] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-5.txt already exist and skip option is True
+[2016-01-08 23:06:26,775] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-5.txt
+[2016-01-08 23:06:26,776] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:06:26,776] [libs.DNARebuild] [INFO] Saving results in file results/D2000-5.txt
+[2016-01-08 23:06:26,776] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:26,776] [libs.DNARebuild] [INFO] DNA: 
+[2016-01-08 23:06:26,776] [root] [INFO] File D5000-1.txt found
+[2016-01-08 23:06:26,776] [root] [INFO] Skipping file D5000-1.txt
+[2016-01-08 23:06:26,776] [root] [INFO] File D500-1.txt found
+[2016-01-08 23:06:26,776] [root] [INFO] Starting file D500-1.txt
+[2016-01-08 23:06:27,778] [libs.DataBuild] [INFO] Reading raw data from file data/D500-1.txt
+[2016-01-08 23:06:27,783] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:27,783] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-1.dzn
+[2016-01-08 23:06:27,784] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:27,785] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-1.txt already exist and skip option is True
+[2016-01-08 23:06:27,785] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-1.txt
+[2016-01-08 23:06:27,786] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:27,786] [libs.DNARebuild] [INFO] Saving results in file results/D500-1.txt
+[2016-01-08 23:06:27,786] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:27,787] [libs.DNARebuild] [INFO] DNA: CGTTACGTCTACTTTGTCCACTAGATCCGTGGGAAATCGGGGTCAAACAAGATCGAGCGAGATCCGCGCTACGAGATTTAGTTTACGAGCCACGTTAATAGTCTCCCTATATATGGGTTGTTTGGCTGCGTGCTGGTCCGAGGAGACACTATAAGTAATGGTGGCGTAATAGAGCCTTGAACCGTTGGAATGCAGTACCACCCGCACCACACACTGGAATATATACAAGGCACCTTAGGCAAGCAGCGTATGCTGGGGTTTGCTCCGTAAGTAAATTGCGTACTATAAGAGTAACTTCGGGGTGTTGTATGTGCCCGTATCAAGTATCTTTTGTCTACTAAGGCTCTCGCTGCGCCCCTTTGTCCCACTAGGGAAGTTGAAGTAGCGCACGACAAGTGGGATGACTATCGGCATAGAACACAAAGAACAGGTATCACTGTTCGTATAGCCAGTCGTACACAGGAGAAGCGAACCTCTCCTAGTGTCACACGACGAGTCAG
+[2016-01-08 23:06:27,787] [root] [INFO] File D500-2.txt found
+[2016-01-08 23:06:27,788] [root] [INFO] Starting file D500-2.txt
+[2016-01-08 23:06:28,789] [libs.DataBuild] [INFO] Reading raw data from file data/D500-2.txt
+[2016-01-08 23:06:28,794] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:28,794] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-2.dzn
+[2016-01-08 23:06:28,795] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:28,796] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-2.txt already exist and skip option is True
+[2016-01-08 23:06:28,796] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-2.txt
+[2016-01-08 23:06:28,796] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:28,797] [libs.DNARebuild] [INFO] Saving results in file results/D500-2.txt
+[2016-01-08 23:06:28,797] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:28,798] [libs.DNARebuild] [INFO] DNA: GACAAAATAACGTATGAGTGCTAACCGTTGCCTACCAAGCACTTGTGGATGTATTGAGACCAACTCTTGGACCTGACGGGCTACCAGAAGGTAATATTTCTGCAAATCATGAAGCGCTTACTTTAGCGCGTAGCCACTTTTAATTGCTGTTCATAAAATAGTCGTCATGCACGCTTACTTATAAAGTACGCCAATAGGGCCATTGGCGCTCAGCACCTCACAAACTGGGCATTGCCACTACCCTCTTCTGACGGTTCTCGTGTGTGCCTTAATCGGAGGTCGAGGGCCGAATGCAGAGCAATCGCCACTTTGAACTATGAACATGGTTACTTTTACACTCTTGCCAGATACTTCAATCGTTTCCTTTGTTCCAAGCGGTAGATCCGACCACTTGGCTCCACTAGCCTGATTCCTGGGTACTCGAGGACGTTTGTCTCATTGTGGCAAAGATGAATAGCATTTCAACGCGCGACAGCATGGAAACACTTAGAAAACCAACG
+[2016-01-08 23:06:28,798] [root] [INFO] File D200-2.txt found
+[2016-01-08 23:06:28,798] [root] [INFO] Starting file D200-2.txt
+[2016-01-08 23:06:29,800] [libs.DataBuild] [INFO] Reading raw data from file data/D200-2.txt
+[2016-01-08 23:06:29,802] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:29,803] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-2.dzn
+[2016-01-08 23:06:29,804] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:29,804] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-2.txt already exist and skip option is True
+[2016-01-08 23:06:29,804] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-2.txt
+[2016-01-08 23:06:29,805] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:06:29,805] [libs.DNARebuild] [INFO] Saving results in file results/D200-2.txt
+[2016-01-08 23:06:29,805] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:29,806] [libs.DNARebuild] [INFO] DNA: 
+[2016-01-08 23:06:29,806] [root] [INFO] File D4000-2.txt found
+[2016-01-08 23:06:29,806] [root] [INFO] Skipping file D4000-2.txt
+[2016-01-08 23:06:29,807] [root] [INFO] File D1000-4.txt found
+[2016-01-08 23:06:29,807] [root] [INFO] Starting file D1000-4.txt
+[2016-01-08 23:06:30,809] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-4.txt
+[2016-01-08 23:06:30,816] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:30,816] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-4.dzn
+[2016-01-08 23:06:30,816] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:30,817] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-4.txt already exist and skip option is True
+[2016-01-08 23:06:30,817] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-4.txt
+[2016-01-08 23:06:30,817] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:30,817] [libs.DNARebuild] [INFO] Saving results in file results/D1000-4.txt
+[2016-01-08 23:06:30,817] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:30,817] [libs.DNARebuild] [INFO] DNA: CGCGGGACCATAGGGAAAGGACGAGCGAGGGCAACTCGCCTAAGGTTTTATCTAAGGATAATGTCCTCCGTTTGGAACGAATCGCTGGCTCAGATGTGGCTAAAACAGTTAAGCCTGGCATGCCGTACCCACAATACAAAAACAATGCTATGCAATACACCTTACGTTCAAAACCCTCGGTCCGGCATTCCCAATTTAGGCTATCACAGTATTTTGTTGAGCTCGTACTTGTTGAGTGATCAAGAGAGTAGTATTATCTTCAGTATTACCCTGATAACGGATTTTCTGACTACTGATAGCTTTTGAATAGTAGCGTTCGTTTTATCCACAAGCCGTTTACAGATATCACTGGCGAAGCCCGTAGCAATATCAGCTATGGAGGGAAACTTTCGCCTGACCTGGGAATTACCATGGTCCCTTTTTAGATTGAGATTACTTTGGCTCTTTTCCGGAGACCGCGATGAGGTTCGCCATCATAGCAACGTATGCTTAGGGTTCATGACCGACTTACGCATTCCTGAGATCGCATATGCACGAAAACCAGAAGTCTCATATGCGTGGAGGGGCTCGCCGACTTAAGGGCTGTCTACCGTCTATGCGCCGTACGGTGGTCGGTAGATTGAACTCTATGGTATTTATCCATTCACTTTAATGCTCTGGTGTGTCCACCACTTGACGATTACCTCGGGAGGTGCAGGGAGAGGCAGGCGTGTATGGCGAGGACCCCGGTGCACCTAGCTCGACGTTTCAACACCTAGCAGACTGGTAAGGAGTGCGCGCTAGAGGTTACCCTCATCGTTCACCTTGTATGAAACTAATGCAGGAATATTGGGGTATAAACGATCATTTTTGATCGGGCTATTTCTATCCGGGTGCGTCCTGGAACCTGCGAGAAATTTAGTCACCGTCGCAGGTAGACTCCCGTACAAATGTTTCGTCTATATCAAAAACGCGCCTATATAGGCCAGGGCTGAGGTCCCGCTGCTTTTTGTACTCAAGG
+[2016-01-08 23:06:30,817] [root] [INFO] File D3000-3.txt found
+[2016-01-08 23:06:30,817] [root] [INFO] Skipping file D3000-3.txt
+[2016-01-08 23:06:30,817] [root] [INFO] File D1000-1.txt found
+[2016-01-08 23:06:30,818] [root] [INFO] Starting file D1000-1.txt
+[2016-01-08 23:06:31,819] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-1.txt
+[2016-01-08 23:06:31,825] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:31,825] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-1.dzn
+[2016-01-08 23:06:31,825] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:31,825] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-1.txt already exist and skip option is True
+[2016-01-08 23:06:31,825] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-1.txt
+[2016-01-08 23:06:31,826] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:31,826] [libs.DNARebuild] [INFO] Saving results in file results/D1000-1.txt
+[2016-01-08 23:06:31,826] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:31,826] [libs.DNARebuild] [INFO] DNA: CGATCAGAGTGTGTGAACTACAGTGTTTTGACCGCAGCGGGGAAGCTCCGGGCTGCCTATGAGGCAGCTCAACTTTATTAGTCCTGCAACCCCTACTCTATCTGTTAGCCATGGACCGTCTGCAGAGCTCGTATGGTAAACAGGGTATAAGTTCGATTACCCGGAGAACGTATTCAGTGATGATCCGATTTGTGCGCCGCATGGGATCTCCCACCTATATCATCCTGGTCACGGGCGCGTAAGCGAAGTAGTCCGTCAGTGAAACCATTATTATACACTTCGCATTACCCGAACTAACAGCCAAGCAGTCGAGATCTCTAACGCCAGCCCCTCCTAGTCTTATATAAATCGTGTCCACTTGTAGATGTTACTATTAAAAGTCTCCTACGTTAACCGGCAGCGACTGAATGGCACGGACCATCGAACTTTTTACGTTTAAAGTACCTGCTAGCTAGTCTGCCGGTTTAGATCCATACGTGTGTCTTTACCCAACAATACCAAGCCGGTTCTCAACAAAGACTCCTCTAGCACTTCACCATGTGGGCTCTAACGGAGATAGAGGAAGGAGTCCCATGTACAGTAAGGGTGTCCCTTATCCTCGCCCACGTCAGATACAAATGATGGGTCGCGTTTGCCGGGCTAACGCAATATGGAGCTTGTCACGTTGGGAACACTCGGGATCTTGCATCCTTGGCTCGACAGATACGCTACTAATTCTTATACTTGAGTTTGGTAATATTCGTCGGCATTGCAGGAATTGATAAAAAGGTCTCTATCAGCGAGGCTATACTCATAAATCTAGTCCACCCTGAAAGAAGTTGCAAGGAGATGGCAAGATTATGGCGAGCTATGTTAAGTTCACAATCCCCTCCACCTGTGTTCTAGGCTTCGCTGAATAATAATGGAAAGACGAAGCACCCCGATCAATTCAAACGTGATGCAGCTGCGGGCGTTAGCAGTTACCTATAAACTTCGTGCATTTAGTGTTATATGTAATACT
+[2016-01-08 23:06:31,826] [root] [INFO] File D5000-3.txt found
+[2016-01-08 23:06:31,826] [root] [INFO] Skipping file D5000-3.txt
+[2016-01-08 23:06:31,826] [root] [INFO] File D2000-2.txt found
+[2016-01-08 23:06:31,826] [root] [INFO] Starting file D2000-2.txt
+[2016-01-08 23:06:32,828] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-2.txt
+[2016-01-08 23:06:32,843] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:32,844] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-2.dzn
+[2016-01-08 23:06:32,844] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:32,844] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-2.txt already exist and skip option is True
+[2016-01-08 23:06:32,844] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-2.txt
+[2016-01-08 23:06:32,845] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:32,845] [libs.DNARebuild] [INFO] Saving results in file results/D2000-2.txt
+[2016-01-08 23:06:32,845] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:32,845] [libs.DNARebuild] [INFO] DNA: GGCGGACATTCCCTTTTTAACATCGGGACTGTCTGCGCGCCGGCAAAAGAAGCGAGCCAGCTATCCTGACTCTTAATTTTTGTTGAATAAAGAGTACACTACACATTACCACGGACCCAATCCATCTAATACCGTTTCTAACGCTATCGAGTAACTTACTACATGCATGCTGTTTATTTCAAGATCTCGGGGTCAGTGGTTCCCCGATATAGCTTGGACCACCACGGCTGCGGGCAATGACGGAGCAGAAGGTCTACTTAGGACACACACCTCCTAAAGAACGCGTTGACCACGAAGCTCCATGGTACATAGCAACCCTAATACGCTTTGAAATGTGCACTCTCACTTAGAACGCTCGGTACGGTAATTGTTATCTTGCAACGGGATAATTCGACGCTAGTGTTTCAGGAGCGAATGTGCCCTAAAAACCTCGGACGATCTTGGGTTTCAGCGGACTAGTTTAAGGGGTCCTTCGACGATTGTGCTGCGTTCATTTGAGTCCTTAGGCATGGTCCGTCGATCCCGCGAGTTACACGGTAGGTTACTCCAAATTCGCAGTCCCAAGGGGTATTCTTGAGTCGTCGTGTCTTGCAGGTTAGACCTTCGCGCTGTTGCAATAACCGCTATGGGCGCACACCCCATACCTGCTCAGGCTCTGTGCTAAAGCTTGCATAATATTAAGCCCCAGGATGAAGACTGAACAATGCCGTGAATCTGGAGTTTGCGCAGAGATTAACCTACATAAAGGCCTATCCGTTAATCCGCAGTGCATATTGCGTTATTATCATAGCAAATGGACCTCACCGGTCTACTGGATTGAGTCGAGGAACAACTGGATTAAATGACCTACCGAGCATGAAGACTCGCTGTGACATCGGAGGTGAGTGTCTGGGGTCGACACGTTCAAAAGCCATTTCTACGCCTAATTAATGGCAGCCTACCACTACCTATCTTTGCGTGCGATTGGGGGGTCCAGACGTAAGACTAGTGACCGTGAATCAGTCTGTTTTACGAGCAGGCCCAGCCTACGTCAGACAATTTAATTGTCTTGTGTCACATAATGCAGCGAAATCGTGGCTTAGAAGAAACCCTTCAGAGCCCTCTTGTGCGGATATTTCAATATCCCTTTCAGAATGCTGCTCTGCTGGTGATGTGACGACTCTTACTCCGACGTACCGCGCTGTCCGAGGCTACGTAGGGCTTGTCTTTAAAGACACAAACAGTCGCAGTAGAGGAATAGTGCGCGTCTACGGCGCTTCATCAATGGTGAGATGGAGACCTTTGTGAAACTTCAAGCGAAACTTATGCGGTTGACAGACGGTGCATCTAATTAACTAGCACTACTACCCTCAGTACCAAGGTCCGGTTTAAGCTATCCCCCGATGGCAGGCATCGGCGACTTCCAAAACGGGCTATCCAGTATTCAGATCATCAGCAACATACAAAAAGTGCCTCTAGTGGGAAATCCGCCATCACTACACTAGAGTGTAAGACGCTTGTACAAGGATTTTTCTCGTTCTACGAGCGATCGGACGTACAGTCCAGAGGCAAGAGCAGCCTAGCATATGTACGTCAGACGAGGAAAGAGTTTGTTCCTTAGGCTACAGGAAGTCAAATGCAAATAGTCCGCGACGCCATCATTGCGATGCTCAGGGTGGGTTGCATTGATACACGGGTTAGCACTATAGATCCGCTTCCAGCCCGCACAATCTGCTAGTTAGAGTGGTCAAAAGGCACGTATATTTCCCTAAACTCGCGGATGGTCACGAAAGTTCGTAGGTGCCGGCGTGCTCTCTAAACTAGCAGCGAACCTCTCAATTACTTCTGGGAGAGTCAACGGATGCGCCCACATCCGATTCACAGCTTCAACGGATAATTGATCGCGTTATCCGCTATACGCATGCCGTCGCTGCCTGGTTACTATCGTGGGCATAATTAGCATCAGGTCAACAATACCAAGGACTAATCTTTGACGTCTCAGCACTGTGGGACTGCTTCCC
+[2016-01-08 23:06:32,845] [root] [INFO] File D2000-3.txt found
+[2016-01-08 23:06:32,845] [root] [INFO] Starting file D2000-3.txt
+[2016-01-08 23:06:33,847] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-3.txt
+[2016-01-08 23:06:33,855] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:33,855] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-3.dzn
+[2016-01-08 23:06:33,855] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:33,856] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-3.txt already exist and skip option is True
+[2016-01-08 23:06:33,856] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-3.txt
+[2016-01-08 23:06:33,856] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:06:33,856] [libs.DNARebuild] [INFO] Saving results in file results/D2000-3.txt
+[2016-01-08 23:06:33,856] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:33,856] [libs.DNARebuild] [INFO] DNA: 
+[2016-01-08 23:06:33,856] [root] [INFO] File D500-5.txt found
+[2016-01-08 23:06:33,856] [root] [INFO] Starting file D500-5.txt
+[2016-01-08 23:06:34,858] [libs.DataBuild] [INFO] Reading raw data from file data/D500-5.txt
+[2016-01-08 23:06:34,863] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:34,864] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-5.dzn
+[2016-01-08 23:06:34,864] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:34,865] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-5.txt already exist and skip option is True
+[2016-01-08 23:06:34,865] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-5.txt
+[2016-01-08 23:06:34,865] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:06:34,866] [libs.DNARebuild] [INFO] Saving results in file results/D500-5.txt
+[2016-01-08 23:06:34,866] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:34,866] [libs.DNARebuild] [INFO] DNA: 
+[2016-01-08 23:06:34,866] [root] [INFO] File D4000-5.txt found
+[2016-01-08 23:06:34,867] [root] [INFO] Skipping file D4000-5.txt
+[2016-01-08 23:06:34,867] [root] [INFO] File D500-3.txt found
+[2016-01-08 23:06:34,867] [root] [INFO] Starting file D500-3.txt
+[2016-01-08 23:06:35,869] [libs.DataBuild] [INFO] Reading raw data from file data/D500-3.txt
+[2016-01-08 23:06:35,874] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:35,874] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-3.dzn
+[2016-01-08 23:06:35,875] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:35,875] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-3.txt already exist and skip option is True
+[2016-01-08 23:06:35,876] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-3.txt
+[2016-01-08 23:06:35,876] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:35,876] [libs.DNARebuild] [INFO] Saving results in file results/D500-3.txt
+[2016-01-08 23:06:35,877] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:35,877] [libs.DNARebuild] [INFO] DNA: AGATTACCTTGTGGAGTTTGCTAGGGCAACCGCGTGTACCAACGTGACTCTGTACAAACAGTAGGAACGATTTGAAGTGTTTAATCCTGAGTCATTCATGACTTAAGGATTTCCATGCTACTCACACTCTCAGTTCTCGGACATTTTTTATCTGGATTGAACCGGACCGGTCCAGGCGGATACACTCAAATACCGGCGGCCCAGATCTTCAAAATGGAGTCCAGGCGTTCTTGCGCGTTTGGGGCGGGAAGGAACGGTTAGGTGTTCGAATGTGAAGTTGATGGTACAAAGTACTACCCTATGCTATCTAAGTGTTAGTGAGAATACGCTTTTATGACTAACGGGGGGGCGTCTCGACAGCACGTGTCCGACTGTCTGGTGTTAAGCTAACTCCAGCGCTAGCACTCAAATCCAGCAAAACTTCGGCTATCACGGTACGATAGAAACGATCGACGGTCCATCGTTACCCAATAAATCGCGGCTCTTCACGCTGTATATGC
+[2016-01-08 23:06:35,877] [root] [INFO] File D2000-1.txt found
+[2016-01-08 23:06:35,877] [root] [INFO] Starting file D2000-1.txt
+[2016-01-08 23:06:36,879] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-1.txt
+[2016-01-08 23:06:36,890] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:36,890] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-1.dzn
+[2016-01-08 23:06:36,890] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:36,890] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-1.txt already exist and skip option is True
+[2016-01-08 23:06:36,891] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-1.txt
+[2016-01-08 23:06:36,891] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:36,891] [libs.DNARebuild] [INFO] Saving results in file results/D2000-1.txt
+[2016-01-08 23:06:36,891] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:36,891] [libs.DNARebuild] [INFO] DNA: CGGTCTCAGTTGAGACTTAACCTTATTGACTAGGGTTGCCTCCAACACCCAAGCACAGGACGGGAGTAAGTGCCAATTCCGTTATTATCCCATTCACTTCGGAAGCGCTGGCGTTTTTACTGCATGGCATGCGTCAACCAGATAGCATATGACGCAGTCCCGGCGGAGCAGCGCGCGTGCCGCTTTAACCGCCCCTAAGTTGCCGCTACTAGGTAAGCCATCTCAAGCGCGAAGAGAGCTGCTAAATATCCCTATGCAAACCGCCAGGGTGCGCGTGGGATGGTCTTAGACTCAACCCCGCAAACAATCTCGGGATCGGAATCAACCCCGGACTAAGGCTTCGTATAATAAACGGCAGTATGGATCAACTCGAGGTGCTAATTGTAGATGCAGTCTGTGTTGACTAAGGAGGATCCGACGAGCACTTGCACATTCTCACCAGGCATTTTAATGTAGGCTACCTGCCACGTCCGCCTCCCAGTAAAGAGGGCAGTTCATTCCATGCTCTGGGGTTGTATGGTTTTTGTTTTGAACCGAGGGAGTTTCCATTGACCAATATCAGTCTTAGGAGCTAACGCAAGGTCAATTAGATATCGATTCGTGCTGCCTTGAAAGGATCATGGGAAATCGCATAGAATCTCCGTAATGGTGATGCTGAATACAGACAAGGTAGATCGCGACCATGTCCTACTAGGGACCGTGGTGTTGGACCATATCGTCTATTACTCTGTCACTCCAGTTTTTGGCAAATTGAAAGTGGAAGCAAAACTTCCGGAAGCTACGTGTATAGCGAGGGGTAAGGAGATATACGGAGTACGCTAATGACGCGTCCACAGATTCGTGCCTTGCTATACTTTCCCTGTAAGTTCCAACGGAGGCGCTCTCCGTTCATCCAAAGAGCTCGGAGGAGGCTCCCAGGGCTCAGTCTAAGGGGGACCGCCTTGGGGTGCTTAGACCAGCCCCACACAGGGAAGGCCCCCACTTACATTAATCCTCTTTCCATCAGACCCAGTCAGGAGTTCGGACCTAACTGTGTACAAAGCCGACCGACTGTACCCGTCCTACTTCCTTTAAATCGCTACAGTCTCTCCCAACCATTAAGCGCAGGTACGATAGCGGGGGACAGATACTAGACTTCAGTTGCGGTGTTGAATGTATTGAAATGGACACCCCTCGCTAGCTGCCAGTCATTTATTGATGCATCGTAATAAAGACGTCACCGGGGAATGTACATCTCGAAAATAGCACGCACCCCAAGTTGAGGAGATGTGGCCACCCATAATAAACACGACCGTGTTGCCGATACCTGTAAGCTTAATATTGATTTTAGGGGATGGAGCATTACTCATTTTCTTAGCTCTGTGAATAACCGGGATGAGTAGCTTGGCTGTAGTGATACTGAATCCATCCTTGCGATTATGAACGCGCTCAGGGGGTCCCTATCGGGTGGTCACGTTCGTCTAACACAGCGTGTCATAGACTGTGGGAGCCGATCCACGCGTGATTGACCTCTTAATAGCGTCAAGGGAAGATCACCTCGGAGCACGTAGCATTGAGGTTAAGATTCTGTTTACGTCAGCGCTATGCTTAACTAGCTTCCGTTGTGTCACGGGAGTGTTGTAGGGTGTGAAACAAGGATGCCTATCCCATCATTATGATTCTGTGGGTCCAGGCTAAACACGAGGGCTCCCTTACTTATTCGTTTGAAAACCGATTCAGCTCCCGGTCATAACTCCAGATATATTGCAGAAGTCGTCCGTATAGTACGCATAGTGTGGCCAATGGGCTGACGACCCTGCAGTAAGTTGCGGAGTAGCGCGTTAGAGAGGTCGTATATTACCATTGTCTGATGACAGACGCGCAACGAACCAATAATAACTACTGGGGGGCTAGGATCAAGTAACAACAGCCCAACCGGTATTCTCCAAGAAGTGCCGTGCAAGAAACTTGACGCTACGCACCCTGATTGCATGGTTGGTGCCCGAAAGGTTGCTGCGTAA
+[2016-01-08 23:06:36,891] [root] [INFO] File D200-5.txt found
+[2016-01-08 23:06:36,891] [root] [INFO] Starting file D200-5.txt
+[2016-01-08 23:06:37,893] [libs.DataBuild] [INFO] Reading raw data from file data/D200-5.txt
+[2016-01-08 23:06:37,896] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:37,896] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-5.dzn
+[2016-01-08 23:06:37,897] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:37,897] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-5.txt already exist and skip option is True
+[2016-01-08 23:06:37,898] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-5.txt
+[2016-01-08 23:06:37,898] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:37,898] [libs.DNARebuild] [INFO] Saving results in file results/D200-5.txt
+[2016-01-08 23:06:37,899] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:37,899] [libs.DNARebuild] [INFO] DNA: AGAAAAGCGTCTTTTGACACTTGAGGAGGGAGCACGATGCGTGTTACAAAAGGCAGAACCGAACATACTGTCCGACTTGGCCATCTTCCTTATGTCGTCCGGCAGAAGGATTAAAGATCGCCACAGTCAAACTGCTACACGTCAGCCACTAGGTAATTCATAGACTTCGCAAGATTTCCTGGCTTAGCCCAATATCATCT
+[2016-01-08 23:06:37,899] [root] [INFO] File D5000-5.txt found
+[2016-01-08 23:06:37,900] [root] [INFO] Skipping file D5000-5.txt
+[2016-01-08 23:06:37,900] [root] [INFO] File D1500-4.txt found
+[2016-01-08 23:06:37,900] [root] [INFO] Starting file D1500-4.txt
+[2016-01-08 23:06:38,902] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-4.txt
+[2016-01-08 23:06:38,914] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:38,914] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-4.dzn
+[2016-01-08 23:06:38,915] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:38,915] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-4.txt already exist and skip option is True
+[2016-01-08 23:06:38,916] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-4.txt
+[2016-01-08 23:06:38,916] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:38,916] [libs.DNARebuild] [INFO] Saving results in file results/D1500-4.txt
+[2016-01-08 23:06:38,916] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:38,916] [libs.DNARebuild] [INFO] DNA: TGGGCGCTTTGGCAAGCTCAGCCTAACGTCAGGCAAGCAATGGATATGTCGTTCCGTCCTGAAGTATGGGTTGCAACAATAGTCGATATGAGTGGCTTTGAAATAAGTACGCTATTACGAATATAGACGTACCAAATTAGTGGCGGCTTGGATTGTTATACGGACCCTACCAGTTCCATCTTCCTCTGTTTCGTAACGCTTGTAAAGTAACTGCAGCTCTCACGCGTACAACCCCTACCTAGTGGCGCATTCAATGCGCGCTTGTACCAGCGGGGCTTGGGTCTCCGCGCGGACTGTGGGGCCTTCTATCGTTCGACGCAGCCATCTGATCGATCAGCCAGATATCTCAACTCTTTACCTTAGCCGGGGGATAATCGTGACATAGACTCGTATAACGATAGGACCAGGAAGTGAGCTTGATTGTAGTTAGGTCGAGGGGGACCGCATCTTGGGTTGCAGAGAAGACCAGTTGCGTTTCGGAAAGCCTAGTTGTGGTCTCCCGTTCGGATGCAGCTAGGTTTCAGAAGCTGTGGCGGTAACCGTAGAAGATTTGCCAAATACCTGATGCCCTTCTTTACTCCTACTACGTTTAAAAATGCTTCGAACTGCAGTAATTGGAGCTACGACGTCGAGTCGGGTCGCAACTAATGGAAGCTTCGCGCTTAACACTGTGAGCGGTGATTTTGTAGACCTGGGTCTGTGAAATTCGATGCTGTTGCGCGGGCTGAATAACTAAGTGCGTGCCATCGACATGTCTGTTTCGCAGTTTGTTCACGGAACAAGGAACACTAGTGTTCGCCGGCACTGTTGACCGTGCGAATAGTCACGGAGTTGGATTGCTACAGATCTACTTACTTGTCATAAGCGTCTCTTGTCACTTTGGATCACCCTACATGTGCTGCTGGCACGGCGAGGTTTACTGATTCTCGCACTAAACCCCTTATAGTAACCTCATCTGTCGTGCGATCACGATTAGCCGGCGGATTGCAAAGTTCTTATTGGGGATATAGCAACGCGTAAATCTACCATTAATAGCCTTGGAGCGCGTTGCAAGGCCTCCTGCCTTTTCCAGATACCGGTTTCATCGCGGTGGAAGCTTCGTGCGTATCTGCTAAATGTGGGTAGACCAGGACACACACCGAGCCCATTATAAGAAGAATGGGGACTACGCCTTGGATAGAACCGAGATACCAGTTGCGTTTTGAGTCTGGACTCCCATTATGAGTGAAGGACAACGAAGTTTAAGTTTACATCACTTGCATAATATCATGCATACATTAATTAGCTACTCACCCATCCCGCTGTATTAATAGCTGGCGTTGTGGTCATTAAACCCGGCTCACCCGAAACTGGTACGAGTTAATTAGTCAATGTCCGTCCGTTAGAAACGGTGATGGGCCTGACAAATATAGGGTCGCCAATTCGAACACACGTCCACTCGAGTTGAGGAGTGCGAAATGGTAGCTTGGCTTCGCGCGCTTGCCCTATTTGAATGGCACT
+[2016-01-08 23:06:38,916] [root] [INFO] File D6000-4.txt found
+[2016-01-08 23:06:38,916] [root] [INFO] Skipping file D6000-4.txt
+[2016-01-08 23:06:38,916] [root] [INFO] File D3000-5.txt found
+[2016-01-08 23:06:38,916] [root] [INFO] Skipping file D3000-5.txt
+[2016-01-08 23:06:38,916] [root] [INFO] File D5000-4.txt found
+[2016-01-08 23:06:38,917] [root] [INFO] Skipping file D5000-4.txt
+[2016-01-08 23:06:38,917] [root] [INFO] File D6000-3.txt found
+[2016-01-08 23:06:38,917] [root] [INFO] Skipping file D6000-3.txt
+[2016-01-08 23:06:38,917] [root] [INFO] File D1500-1.txt found
+[2016-01-08 23:06:38,917] [root] [INFO] Starting file D1500-1.txt
+[2016-01-08 23:06:39,919] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-1.txt
+[2016-01-08 23:06:39,926] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:39,926] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-1.dzn
+[2016-01-08 23:06:39,926] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:39,926] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-1.txt already exist and skip option is True
+[2016-01-08 23:06:39,926] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-1.txt
+[2016-01-08 23:06:39,927] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:39,927] [libs.DNARebuild] [INFO] Saving results in file results/D1500-1.txt
+[2016-01-08 23:06:39,927] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:39,927] [libs.DNARebuild] [INFO] DNA: AAAGCTATTATTATCCTAGTGCATCTACTCATGTTTTTACGGCTAGTGATGGGCCTGGCGACAGCGATTTCTCAGGCCGTTAGGCGGACAGTGGCCACGTTTTTGTTCTGGGCGGGTGTTTGATCTTCCCGAAATATGGGAACCTGCACTGGCACGGGCTGGGACGTGAGGGTCTACTATCCGATCCCGCGGACTAGATAGGCTTCTAACTGAGCACCACAATGTAATGGAGCCTTTTCCTTTCCAGAGGTCGTTATTTCTAGGTGGCCGATGTTCCTCGCCCGAGTGGTAGTATCATAGCAACAGCGGATGCAGCTGCCCGTGTGTAGTATCCTCACGCTCAACCACTAAACCCGGTGCCAGGCCTGGCACAAGCAGTGTAATTCGGCCCATATAACTAGGCAATCAGCACACCCTGTGTCATGCCTTCGTGGCTTAAGCCTTAACGACATAGGGGAGTCGGCAATCACTCGGCCGTGGGGCTTCAACAGTCTAGCAAAATACTCGAGGGGGAAGATATATTCACCCTTGCCGTATGCAAAATTCTCACGACTTACCACTCGAACTCGGCTTACCAGCGCTGTAGGTCCCACAAGGGTTCCTGGCTTGCCAACCCACGGCCATTCTAGTGATCGGTGAAGGACCTGATTTAGAACAATCCTTATGCTATCGGGTCTTGATACTCACTATATTTAGTGGGAAGCAGTCGGCAAAGGATGGTCGTGACTAAAGCCCGACCACCACCCAGGTACCTCGCGTATTGTTATTCGTCTCCGATAGGGCATCACGTGCTACACTGTTGTGGGTGCCATGAATCGCACCCAGAACGAGACGTCCCGGGGCCGGCCTCAGCAATCTCTCCCACTTATCATATGCGTGCCAGCCGATCGGATGGTTGCCCTCTCTTGAATAATTACAGTGCCGGCCCTTGCTTAAACTCTGGTGGGATCGATCGTGAGGTCATTAGTACCGAGGATCGTGGCATTAATGGAAGCGATTACTACTATGTGTACGCTAGGAATATGTTCTGTTATGACGGTCATCTCCGTGAAGTAATGCACCTTCTGCCCATAAAGGATCTCCCTTGGACCCTTAAACGCCGTCATGGGTACAGCCTCGAAATAATTGCATAGCCGCCTCCTCCTTGCTACTGGCGGAGATGAGACGAAGCACAGTAAGCCCCCGGGATAGGATATGCGGGAGACTATGTGAATGTCGGAGACGTCGCGCCGTGGTTCCGTTCCCGAGTGAACGTATCTTGGCAACCCTTAGCGTTTGCAGCCGGTTCACATCACGGATTCTCAGACTCGGTCTGAGAGATGGAGGATTCCATTGGTGTCAGGGTCAATGTTGATATTGGATAGCCAATCACGAGGTTGTTTGAGGATGAACTCATAGGGTGAATAAATACCTCAGGTCATGCGATCAGCTTCTGTGTTGATTACCTAAACCGTCAAACTCAGCGCTGTGTCCTCTTCGGTCAGTTACGTACAACCATGA
+[2016-01-08 23:06:39,927] [root] [INFO] File D200-3.txt found
+[2016-01-08 23:06:39,927] [root] [INFO] Starting file D200-3.txt
+[2016-01-08 23:06:40,929] [libs.DataBuild] [INFO] Reading raw data from file data/D200-3.txt
+[2016-01-08 23:06:40,932] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:40,932] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-3.dzn
+[2016-01-08 23:06:40,933] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:40,933] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-3.txt already exist and skip option is True
+[2016-01-08 23:06:40,933] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-3.txt
+[2016-01-08 23:06:40,934] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:40,934] [libs.DNARebuild] [INFO] Saving results in file results/D200-3.txt
+[2016-01-08 23:06:40,934] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:40,935] [libs.DNARebuild] [INFO] DNA: TTACCAAAAACCCTCACAGTCAGCTTCTCTATATAGTCGGACTCCCAAGGGTCTCACCCTGGTCGTTTCTGAGTTTATTATGTAGCCCACCAAATAAAGTGCGATATGCCTCAACTTTCGCTATTTCCCGCTCAATAGTCCTCACCTTTATCCGTGCACGGGACTAGGGATGGCTAGGATTACCACCAGCGCCTTCACTT
+[2016-01-08 23:06:40,935] [root] [INFO] File D3000-2.txt found
+[2016-01-08 23:06:40,935] [root] [INFO] Skipping file D3000-2.txt
+[2016-01-08 23:06:40,936] [root] [INFO] File D5000-2.txt found
+[2016-01-08 23:06:40,936] [root] [INFO] Skipping file D5000-2.txt
+[2016-01-08 23:06:40,936] [root] [INFO] File D1000-3.txt found
+[2016-01-08 23:06:40,936] [root] [INFO] Starting file D1000-3.txt
+[2016-01-08 23:06:41,938] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-3.txt
+[2016-01-08 23:06:41,948] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:41,949] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-3.dzn
+[2016-01-08 23:06:41,951] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:41,951] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-3.txt already exist and skip option is True
+[2016-01-08 23:06:41,951] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-3.txt
+[2016-01-08 23:06:41,952] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:41,952] [libs.DNARebuild] [INFO] Saving results in file results/D1000-3.txt
+[2016-01-08 23:06:41,952] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:41,952] [libs.DNARebuild] [INFO] DNA: TAGCATATGCATTGGAGAATGAAACGCGGAGTGAGGGCCGGCGTCGCAGAAGTGGCTTTTCCAAACGTTTCCGCGCAAAGAGGCCTTGTAAGAGAGTGATGCAAAGTAGCCGGGAGGAGGCAAGCTCCGCAGACTTGTCCGCGATCCTGCTTACTGAGCGACCCGACTCCCTTGGCCTCAGTAACCGTTAGTACGAGTGTGCTGGTCACTTAATAGGATGAGTTGGACCTTACTAGTCGAATAACCAAAACCTATGGGAGCTAGTGCGGGCGGACCAGACTTCAAAGAGCCTTTCAGCACTAAAGGTGCCACCGAGTGAGTCTTGGGACTTGCTCCTGCCATGAATCACCGCATACACTATTGCGCGACGTGCGCGTATTACACAGCAGTTACGTAGCAACGGCTAGTGTTGTAGGATGGTTAGCTAAGGAGGCATTCGGTTATCTATTACCGACAGCAAGCCTAGAAATACTATACGAACACATGCTACCTTAATTTACGAAAGCTAATTTCCGCAGTGTATCATGCCAAGGCCCCCCCTGAAATCGCGCTTAGCGGCCGGTGAGTCCTAGTAGTCCCAAACCATGACATTTAGGAATGAGAATTCTATCCTTTTTCCGGCTAATCTCGTGGGCAGGGTCCAAGGTCAAACTTTAGGTCATACATGTTAGAAAGGAACGCACATGCCCTCTATCAACGTTCTGATAGCAAGTTTATTTACCTCAAGGCGCCTCTACGAAGGTTCTATTCATGGCATCCGTCGTTTACCCGGTGACGAGTCCGCACTTCCGATTTTTATTCGCTAGCTCAGATCAATCTAGGTCAGGTACTCTCAAACGGCCCAGTGCAAGTATGGCGTCACTACCGGCCGTCGAGTTGAAGCGCTAGCTGCACTTGGGGACAGTAAGGGAACTACTTTGCGATGCTGAAGTGTGCGCTGAATATCTAAATGACAATACCTGGCAATAATTAATTCGGTGAAGCTAATTCGGGTGACGCA
+[2016-01-08 23:06:41,952] [root] [INFO] File D4000-1.txt found
+[2016-01-08 23:06:41,952] [root] [INFO] Skipping file D4000-1.txt
+[2016-01-08 23:06:41,952] [root] [INFO] File D200-4.txt found
+[2016-01-08 23:06:41,952] [root] [INFO] Starting file D200-4.txt
+[2016-01-08 23:06:42,954] [libs.DataBuild] [INFO] Reading raw data from file data/D200-4.txt
+[2016-01-08 23:06:42,955] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:42,955] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-4.dzn
+[2016-01-08 23:06:42,956] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:42,956] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-4.txt already exist and skip option is True
+[2016-01-08 23:06:42,956] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-4.txt
+[2016-01-08 23:06:42,957] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:42,957] [libs.DNARebuild] [INFO] Saving results in file results/D200-4.txt
+[2016-01-08 23:06:42,957] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:42,958] [libs.DNARebuild] [INFO] DNA: CGCTCTCGGTTCGCTTAATGTTAAATAGGAACAATGAAGTAGCCAATGGCAGTGCCACTCTTGTTCTCGTTAGATACATGTCATATATCGATTTATCCCTGCCCAACTTCCTTACCCAAAATGACCAAGAGGTTCGTGAAACAACATCAAATCGTTGTACTAGCTCTGATACACTAGAGGACCTTACCCTCGGAAATGTA
+[2016-01-08 23:06:42,958] [root] [INFO] File D1500-5.txt found
+[2016-01-08 23:06:42,958] [root] [INFO] Starting file D1500-5.txt
+[2016-01-08 23:06:43,960] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-5.txt
+[2016-01-08 23:06:43,969] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:44,001] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-5.dzn
+[2016-01-08 23:06:44,003] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:44,003] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-5.txt already exist and skip option is True
+[2016-01-08 23:06:44,003] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-5.txt
+[2016-01-08 23:06:44,004] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:44,004] [libs.DNARebuild] [INFO] Saving results in file results/D1500-5.txt
+[2016-01-08 23:06:44,004] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:44,004] [libs.DNARebuild] [INFO] DNA: CTGGCCTGCGTAGCACCCTCAAAACGAGAGGTTGTCGGGAATTAGACCAATTAACAATAACCCATTTAACATCAGAAGGGTTGGGCTACAGGCGGTGAACGCGGTTGCCGTTTAAAAGGGATCGGAGCCTTCGGCCTTCGACTCGGTCGTTGAGTGAAAGCCTTGGAACGTTACTCCATAGGTTGTCGACAGCGAGAAGCTCCCCGTTCCATACTACGGTTTGCGGGCACTACAAAGGGTGTGGGGGGTATAGACAGTCGGTTGAGTTAGATAGATGTGTATCCCGTTCCTCCCACACCGTTAAGTCCACTAGGAATATTACCTAGTTGCAGCTCTAACTTGCGTATATGGCGTGCTCTCGCAACCGTCCTCCGGAGCTCAGCCAAGGCGTTTTCCGAGTGCCGGGGAAAGAAGCAACGTTAATTGACCATGGATCGCTCAGTATGACATAGGAAGTGTAGATGCTTTCGCAGACCTTGAATGGGGCCCTCCAAATTCCGTCCATAACACACATCAACATAATATTAGTTAGCACGGACACAGGACTAAGTATATATTTGTAAAGAAGTATTGGTACAGAAAAATCCACGCGTGCCTCACCCGCAGACCCCTGCTAAGGACTGCAGGGATAGTTCTCAAACTGCAAATTAAGTCGCAAATCCTTCCTCCCGCGTCTGGGTCGCTTGAGGTCACAGAGAGCATGATTTTCGTGACTCATCGCTCATACCTGGACACGTTCGCTACGTTATTAGATAGGCTTATGAGTGTCACGGTTGAGCCAGCGAAATTAGTAGTATAGCGGTAGTTTTAATAGTTCCGGATTCGCGCTCCCAAGGCGATTTGACCTTAGGATCCACAGCGGCCTAGGGTGGAAGGTTTCGATAGCAATAAAGACCTCGCTTACAATAGCAGTCATATTGTGTGTCGGGTCTCATGGAGACATCTTATTGTTACAGCTGGATCTAGCACATGGATACAGCGGGAAACGGCATTATTATTCGAACGTGGACCGGAGTCGCACATCTAAAAACGCTATTTGCACTTGGCGCGTTTGCGTTTGCTGTTGTCGAATAGATTACTTAGGGGTAGGTTCCCCGAGCTAACTATTACGTTCATCCTACTGAAGAAGGCAGACTGGTGCACGTGAGGTTCACCGATCTGGAAGCGTTAGCTTTCCTATTTCACCGCCGCCTGTGCCCAGCGTTGAGGCACATGATCGCGCAGTGAATTTTAATAGCGGAAACCCAACATATGTTTGGCGTATTGCATTCTCCCGCTGATTGACAATAGGCTTTAAACCCCATTTCTTGGCGTATCCCGTCCAGTACAAGAAGCTGTCCGCCACGACTGCCGCATTAAGCAGTGTAATTAGATCCTAGGCTCGCGACCAGAACGTGAATTCTGTACAGCACATGATTCCCTTCCGCGCACAGAAGGACTACAGTCAGTAAATGCACGTATTAGATACGCCGACCTACAGTTGCCGCCTGGCATTGCTAT
+[2016-01-08 23:06:44,005] [root] [INFO] File D1500-3.txt found
+[2016-01-08 23:06:44,005] [root] [INFO] Starting file D1500-3.txt
+[2016-01-08 23:06:45,007] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-3.txt
+[2016-01-08 23:06:45,014] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:45,014] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-3.dzn
+[2016-01-08 23:06:45,014] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:45,014] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-3.txt already exist and skip option is True
+[2016-01-08 23:06:45,014] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-3.txt
+[2016-01-08 23:06:45,015] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:45,015] [libs.DNARebuild] [INFO] Saving results in file results/D1500-3.txt
+[2016-01-08 23:06:45,015] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:45,015] [libs.DNARebuild] [INFO] DNA: GCCTGAGGCGGGCAGTACGGGGAGTGGTAGTTTGTACCGGGAGACCCGGCCGGGGGTTCTACGAACCGACTTGTCCAGGTGCCCTTTGTATCGTGGGCCGGTGTCCACGCACTTGGAAATACAGATGGAGACGAATACAACTGGTCTCCTGGGGAAGTCTTATCAGAGTTTCACAGAAAACATTTACCTGGCACGGGGTACATACAGATGCACGGCCAGCATCATGCGTGATTGCACTCCGACCTGACGCTCAGATATCGCTAGCTAAGAATGGAGCTTCGTCCCCCATATTAGGCATGTTTCTGCTCGCTATAGATAGCCCCTTCGCGTGGTAATTCTAGTACTAGCAATCTGTTCTCTCGACCGAAGTCATGGTCGACGTTTATCTAAACCGCGGTCGGTGTCAATTCACTGGACCTAATCTGGAGTCCAGTATGTACGTGTTCCGACCGGGAACAAACAGGCTCAACAGAAACTATCGGTGTTCGCAGATCCTGAGCGGCGTCTCCGTACTTAGTCTTAGAGGGGCATGTAGTTGGTAAAGCCCAGTCGGTGATATTTCTGCCCAGTGGCACTTACGCTGACTGTGCGCTAAGTCCGTGCATGAACGAAATTGCCTGGTGTAGCCGCTTAGTTGCGGGGAATTGGAATCGCCGAATGGCTGAGTTTGTATACCGAGAGGAAACACTCACACCACCTGAGATAATAACTCCATGCTGGGTAAGATATAGTTTCGGATACAATGACGCGGCTAAAATCCCACGAACAATGGCATGCCGTTTTGTCTTGAGTTAATTTGCGAAATTAACTGATTCCAGTGCGAGGAAACACCAGTTCCACTTGTCAGATGTTCCGTGTGTGGCTTGCCAACGCAACGCGGGCGATCGGCCTACTAGCACGTGATATGTCTATTACACATTAAGCTCTGTATGACTCGGGAGTTACGAAATCTTGGGCTTATGGTAGTTCACTCTTGAAGTGCGGAATCGGCTAACCTGTTCATCGTTGGATCTTTTATCGGAATATAACGGAAATGGGCGGTGTGGTGTACCGTTCCAATAATGAGGGCGTAACAGCGCCCCCATATGCCGAGATAGGAGTACCACGAACTCACGTGCAGCATACCCTGGGCCCAATGAAGCTCGTCCGGAGCTGTTCATCAAACCGTTTTCTCGAACCTTTGGGAAAATTGCATTTAGGCGTGCTTCATCATCAGCTTTTGGTGAGCTGGATCAAGGCAGAAGGCGTTATTGAAGTGAAGGTGAGTTGGAATCCATCAGATATGTCCCGAAAGGTGACATCAATGTTTTTAGAGCCTCTAGGGAGTCGTGTTCCTTTTTTCTCTCACATAAACGCAAACACTCTGCCCCCGATTACGGGTTATAATAAGGAAAAGATTACTATAAGCGTCAGAGTATGACTTCGTTAGTCTCACGATAACCAGATGTTGTTAAAGTCAATAACGCTTTTGGACTGTCGGCAACCGACACCACGGGTCCA
+[2016-01-08 23:06:45,015] [root] [INFO] File D3000-4.txt found
+[2016-01-08 23:06:45,015] [root] [INFO] Skipping file D3000-4.txt
+[2016-01-08 23:06:45,015] [root] [INFO] File D1000-2.txt found
+[2016-01-08 23:06:45,015] [root] [INFO] Starting file D1000-2.txt
+[2016-01-08 23:06:46,017] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-2.txt
+[2016-01-08 23:06:46,026] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:46,027] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-2.dzn
+[2016-01-08 23:06:46,028] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:46,028] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-2.txt already exist and skip option is True
+[2016-01-08 23:06:46,029] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-2.txt
+[2016-01-08 23:06:46,029] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:06:46,029] [libs.DNARebuild] [INFO] Saving results in file results/D1000-2.txt
+[2016-01-08 23:06:46,047] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:46,048] [libs.DNARebuild] [INFO] DNA: 
+[2016-01-08 23:06:46,049] [root] [INFO] File D3000-1.txt found
+[2016-01-08 23:06:46,049] [root] [INFO] Skipping file D3000-1.txt
+[2016-01-08 23:06:46,049] [root] [INFO] File D6000-2.txt found
+[2016-01-08 23:06:46,050] [root] [INFO] Skipping file D6000-2.txt
+[2016-01-08 23:06:46,050] [root] [INFO] File D200-1.txt found
+[2016-01-08 23:06:46,050] [root] [INFO] Starting file D200-1.txt
+[2016-01-08 23:06:47,052] [libs.DataBuild] [INFO] Reading raw data from file data/D200-1.txt
+[2016-01-08 23:06:47,055] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:47,055] [libs.DataBuild] [INFO] Saving processed data in data_processed/D200-1.dzn
+[2016-01-08 23:06:47,056] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:47,056] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D200-1.txt already exist and skip option is True
+[2016-01-08 23:06:47,057] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D200-1.txt
+[2016-01-08 23:06:47,057] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:47,057] [libs.DNARebuild] [INFO] Saving results in file results/D200-1.txt
+[2016-01-08 23:06:47,058] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:47,058] [libs.DNARebuild] [INFO] DNA: GCGCGAGTCGGCTCGGTTAGCCACACCCCCGACACCGCCGCATAAGTTCACGATAAATCAGATTCATTCCTACCGCGTAGGTATACTTGGAACTGGCTTCATGGTTCTCTTGCCGAACACGTTCATGGCAGCCACGAGTATCAAACTTTAGTTGGATTTCGTGCCAACAAACTCGTCCCCACAGCGACTGAAATCGACGA
+[2016-01-08 23:06:47,059] [root] [INFO] File D1000-5.txt found
+[2016-01-08 23:06:47,059] [root] [INFO] Starting file D1000-5.txt
+[2016-01-08 23:06:48,060] [libs.DataBuild] [INFO] Reading raw data from file data/D1000-5.txt
+[2016-01-08 23:06:48,069] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:48,070] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1000-5.dzn
+[2016-01-08 23:06:48,071] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:48,071] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1000-5.txt already exist and skip option is True
+[2016-01-08 23:06:48,071] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1000-5.txt
+[2016-01-08 23:06:48,072] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:48,072] [libs.DNARebuild] [INFO] Saving results in file results/D1000-5.txt
+[2016-01-08 23:06:48,072] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:48,072] [libs.DNARebuild] [INFO] DNA: CGTGACATTTCAGACAGGTGTTGTCCTGGATTGGGCGAACGTGTGAACTACGGTGGATGGATCCCGAGTGATGCTGCATTTTGTTAGCGCTTAAGTTCCTCACGGGCCCCACAGGCATGCTGATCTTTCAGGATTAATACGACCAGTATGTGATTTTCATATCTTCGCCGTTGTTACTTCTCGCTCGAAGTTGTCCCACGTTCGGTGAGTAATTAGCCATCATGCTATGCTAAGGCCCGGGGGAAAGCCCAGAAATATGTCTAATTAGCAACAGGGCCTGGGTAGGGCAAACGATCGCTAAAGAAACCTAGCGCACCTCCTGAAGGACGCAATTCTAGTTATATAATTTTCTCAGTCTATACCCGCGGGCTACGGCCTTTGCGCCAAGCTACTAACAACATCCCATTTTCCGGAGATTGCTCTCCAAACCGGAAGGTTGTGTTTTATAGGTGGGCCATACACCTCACATTAAATGGCTAAAACCAAACGAGTCAGATGATGCTGTACAGTAATACACTGGTGTATTAGCGCCCAACCTTGTTTCATTGTACGCCTGGCAGTGAGCCTTCATTATGTAGCTGAGCGGGACTTGTTATGTCATGCGGAGGCCGTCAATCCGATCTTAGCGCCCGGGGCTGCCACAATGATAGAAGAGCTCTCCCATGACCTAAGGTTCTCACGTTTTATTGGGTACTCCGTTCAGTGTTCACAGTTGGTAGTTATCATCTGAGTAGACTAGATGCAAAGCAACGCTCGGGAATTCGGCTTACTTTTAAGCTTGTGATATGATTACGGAGAGCACCGAGGAGTTAAGTTCCAGTCCCTATCCGACCGACGAGTTCTTCCAACTGCGCTGCGGCTAGGTAACCTACGTGTGTTTACACCAGGTGGATACACTTGAGGCAGTTGGTTTGGTGAGACCTGGATCTGATGACTGGCCACGCACAGTAAAACATGCATATATTGCGTGCGCGGTGTCCATAGGACCCGAATGGGCTAA
+[2016-01-08 23:06:48,072] [root] [INFO] File D6000-1.txt found
+[2016-01-08 23:06:48,072] [root] [INFO] Skipping file D6000-1.txt
+[2016-01-08 23:06:48,072] [root] [INFO] File D500-4.txt found
+[2016-01-08 23:06:48,072] [root] [INFO] Starting file D500-4.txt
+[2016-01-08 23:06:49,074] [libs.DataBuild] [INFO] Reading raw data from file data/D500-4.txt
+[2016-01-08 23:06:49,079] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:49,079] [libs.DataBuild] [INFO] Saving processed data in data_processed/D500-4.dzn
+[2016-01-08 23:06:49,080] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:49,080] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D500-4.txt already exist and skip option is True
+[2016-01-08 23:06:49,080] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D500-4.txt
+[2016-01-08 23:06:49,080] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:49,080] [libs.DNARebuild] [INFO] Saving results in file results/D500-4.txt
+[2016-01-08 23:06:49,080] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:49,080] [libs.DNARebuild] [INFO] DNA: ACAGAGAAAGCGAAGTACTATCTGGAGTTACTCATTGCGTGCTGGTCCGTCAAGAGGTGTAACTAAGGGGCGTCACGGGCGGTAAGCTCTCCCACTTCTAGAAAGAGCAGGGGCGAATACAGTCTCCTGTGCAAGAGCCGGACCTGATAGGCGTATCCCACAACACATCGGTGAGACGCTGACATGGCTGGGGCGGGAGCACAGCTGTGCTCTTACCTTGGCAGATGCGCCGGCAGATAATTCTAGAAGGAATAACGTCTCTAGACTGCTATGCCGGAGTATCCCGCGTGTATGCCTTATACCTGTTTCGACATATCACCAGCATGTGGGGGGGGTTGCACTATGAGCTTTACAGCTAGCTTCACGCGCATAGGACTCCTTACATCGGACATTCTGCCACCTCTCAGTTCCAGCCGCGTAGGCCGCTCCAACATGTTCAGGAACGCGGGATATGATAGCCTATTCGCGTAAGTACCACTTAAATATCCCAGGTTGTGCCG
+[2016-01-08 23:06:49,080] [root] [INFO] File D4000-4.txt found
+[2016-01-08 23:06:49,080] [root] [INFO] Skipping file D4000-4.txt
+[2016-01-08 23:06:49,080] [root] [INFO] File D1500-2.txt found
+[2016-01-08 23:06:49,081] [root] [INFO] Starting file D1500-2.txt
+[2016-01-08 23:06:50,082] [libs.DataBuild] [INFO] Reading raw data from file data/D1500-2.txt
+[2016-01-08 23:06:50,090] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:50,090] [libs.DataBuild] [INFO] Saving processed data in data_processed/D1500-2.dzn
+[2016-01-08 23:06:50,090] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:50,090] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D1500-2.txt already exist and skip option is True
+[2016-01-08 23:06:50,090] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D1500-2.txt
+[2016-01-08 23:06:50,090] [libs.DNARebuild] [WARNING] This model is unsatisfiable
+[2016-01-08 23:06:50,091] [libs.DNARebuild] [INFO] Saving results in file results/D1500-2.txt
+[2016-01-08 23:06:50,091] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:50,091] [libs.DNARebuild] [INFO] DNA: 
+[2016-01-08 23:06:50,091] [root] [INFO] File D2000-4.txt found
+[2016-01-08 23:06:50,091] [root] [INFO] Starting file D2000-4.txt
+[2016-01-08 23:06:51,093] [libs.DataBuild] [INFO] Reading raw data from file data/D2000-4.txt
+[2016-01-08 23:06:51,108] [libs.DataBuild] [INFO] File readed successfully
+[2016-01-08 23:06:51,108] [libs.DataBuild] [INFO] Saving processed data in data_processed/D2000-4.dzn
+[2016-01-08 23:06:51,109] [libs.DataBuild] [INFO] Data saved successfully
+[2016-01-08 23:06:51,109] [libs.MiniZinc] [WARNING] Skipping MiniZinc command. The file data_models/D2000-4.txt already exist and skip option is True
+[2016-01-08 23:06:51,109] [libs.DNARebuild] [INFO] Reading data from model in file data_models/D2000-4.txt
+[2016-01-08 23:06:51,109] [libs.DNARebuild] [INFO] Model obtained successfully
+[2016-01-08 23:06:51,109] [libs.DNARebuild] [INFO] Saving results in file results/D2000-4.txt
+[2016-01-08 23:06:51,109] [libs.DNARebuild] [INFO] Results file save successfully
+[2016-01-08 23:06:51,109] [libs.DNARebuild] [INFO] DNA: CTACTCCAGCACACGCCCTACGTGAGTGTGGGATCCTTATTCGGTAGACATACACGAACACTCGCTTCAAAAAAAATACGGTGAACCTCTGTGATTGAGCTCAAGTCTCGTTGTACCCAAGGGGCTTTTTTTAGTCGAGATGCCATTTGGGGGTGGCGCGTATTGTGTGCATGCACAAGTACACCGCGCATTAAGACTCGTTGTCACGCGATTATTGTTCAGTTCTCGGTTATAGATGTGAATAAACCCTCCCGTTCACTCCACGAGCATTTGGATGCTTAGTCTTCTTTTGCCCGTTGTGTAAGTCATTCCAGATTTCTACCGAAAACGACTCACTGAGGCAAGGGCTCCGGAAAAGCCCGTCCGTAAGTTAGGTCGTAAGCCGACGCAGAAATTGCAAGGCTCATATAAGTGAGTTGGTGGGACATCGCGAATACATTATAATTGACGACATTTGTGCCAGCATATCTAACCCAATTTTTACCTATGGCGTCACTTGAAGGCTAGACCTCCTCGCGATCCTGATCGCGCAAGATTAACTGTGGTATTTCAAAAGAGGAACAGGGGGTTAGCTTCGGTTACAAGCCAATACGCAGGTGCATCGTTCTGAGAGAGCTGTCCGAATGCGTATTGAGGTGAGTCATAGTTGAGGTCTCATCATAGCCGGGCGCCCTTTAGGGGACAGGACCAAGAGTCGCAGTCCTCTCGTGCGACTTAGTTCCAGCCAGTTCAAGCAGGCACGGACCATGCTTTATGCGAGGTATTTCTAGAACCTACGATGTCCGATCTGTAGCCAGCCGGGAATCTAAATCCGATAGAGCCGTTAGAACTCTTGTAGTTTGAGAAAACAGGTCCCACGTCTGTATGAGATACAAGTGGACGTATGGTCAGTACCGTGATGTTTCGGAAAGTGTAACGATGGACGTTGGCTAACTCAGATCCAAAACCTCAAGAGTTGCTGAGCGAGTGAGTCTACAAGAAGGGTTTACCATAGGGGGATACTCGATAGTCTCCTTTCAGGCGTAAACGACGGAAGAGGTATGGATAGGCGAGTCTTGGAAACGGCGCCCGAGAATCATACCAGTTGTATTTGCAACTCTGGGGGGAGGGCCTAATATCGGTTATAATATATACGTGATTGCTCAATCCCGGAATCCGTCTGCGAACGAATTCAACTATGTAACCCAGTGCTGGGGTGGACTTTAGAGTGCCGTGGAACCTCCTTATCATAAACGCTTATGTGCAGGTCTCACACCTCTGGAAATTAACGCGGCTAGCTGAAGATTAGCCGCGAAACAGGGGCGGGCTCTAGGACGTCCGCCAGCAAAATCGTGGCGTAAGCTGATACCGGCCTTAACTTATGCCCAATCGTAACACAAGCGTCGACGTTGGTGGTGTTTGAAGGGGTGGCTATGTGGCGGATACTTCTCGTACGAGTTTCATGCATCCAAGGGTGAACTCATTGCTATGTCTGAGGGAGAGACGGTCCAATCCTTAAAGTGACAGTCCTACCTGTATTGGTGTAGGCCAATAGGATAGGGGCGATGTGTGTTGAACTCGGCACCGCTCGTGATGCCTCTGCCCTCAGATAGGTCGAAAAGGTAACTAACAGACAACAATTGGCCTAAAGTACCCCTGGAATGCGCTTAACCCAGCAACTACCCCTTGACTTCTGTCCTGTGTGACGCGGGGCGCGCGGTTTTTCTAAGTGTCAAATTGGGAGCACCCGCCAACAGGAGAGCGACACTCGATTCTGCCAGGTAATCCTACGAGATAAGGAATTACAATAAAACTGGGCACACTTATCTCGAATAACGTCTGTGTGAAGTTCCTCCAGAAGAATTGTTCCAGACGCTTTGACGGTGGCTCGACCTCAGTTCAACTTGATTGGCTTCTTCCTTGGAGCCCACCTTCGTAAACAATCCGCTGACAAACGTATATGCGTAGTCCTCAGCTTGAGGCGTAAAATGCTGAGAGCCTGATATCCCTCACTGGATGGT
+[2016-01-08 23:06:51,110] [root] [INFO] File D6000-5.txt found
+[2016-01-08 23:06:51,110] [root] [INFO] Skipping file D6000-5.txt
+[2016-01-08 23:06:51,110] [root] [INFO] File D4000-3.txt found
+[2016-01-08 23:06:51,110] [root] [INFO] Skipping file D4000-3.txt

@@ -45,7 +45,7 @@ if __name__ == "__main__":
     mzn_model = "DNA_model.mzn"
 
     not_process = [  # list of files to skip
-        "D2000",
+        # "D2000",
         "D3000",
         "D4000",
         "D5000",
@@ -87,7 +87,7 @@ if __name__ == "__main__":
 
                     # Read data obtained from MiniZinc model
                     model = rebuild_mzn.readModelFromFile(modeled_file)
-                    rebuild_mzn.saveResults(model, result_file)
+                    rebuild_mzn.saveResults(model, mznBuild.DNA_pieces, result_file)
                 except:
                     logging.error("Something was wrong with file %s" % raw_file)
                     time.sleep(3)

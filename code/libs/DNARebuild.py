@@ -46,12 +46,30 @@ class DNARebuild(object):
 
         return self.readModelFromString(model_data_str)
 
-    def showResults(self, model):
-        self.logger.info("Showing results in console")
-        print model
+    def getResults(self, model, DNA_pieces):
+        sorted_DNA_pieces = []
+        for i in xrange(len(model["original_DNA_order"])):
+            if i < len(model["k"]):
+                current_DNA = DNA_pieces[model["original_DNA_order"][i] - 1][:-model["k"][i]]
+            else:
+                current_DNA = DNA_pieces[model["original_DNA_order"][i] - 1]
+            sorted_DNA_pieces.append(current_DNA)
+        return ''.join(sorted_DNA_pieces)
 
-    def saveResults(self, model, filename):
-        self.logger.info("Saving results in file %s" % filename)
+    def showResults(self, model, DNA_pieces):
+        self.logger.info("Showing results in console")
+        print self.getResults(model, DNA_pieces)
+
+    def saveResults(self, model, DNA_pieces, result_filename):
+        self.logger.info("Saving results in file %s" % result_filename)
+        try:
+            result = self.getResults(model, DNA_pieces)
+            with open(result_filename, 'w') as result_file:
+                result_file.write(result)
+            self.logger.info("Results file save successfully")
+            self.logger.info("DNA: %s" % result)
+        except:
+            self.logger.error("Something was wrong saving the file %s" % result_filename)
 
 if __name__ == "__main__":
     rebuild_mzn = DNARebuild()
