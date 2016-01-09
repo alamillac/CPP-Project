@@ -4,6 +4,8 @@ from libs import DNARebuild, DataBuild, MiniZinc
 import logging
 from os import path, walk
 import time
+import sys
+import ConfigParser
 
 logfile = "project.log"
 
@@ -52,6 +54,23 @@ def compare(file1, file2):
         logging.error("Error in function compare")
     return results
 
+
+def get_from_config(config_file):
+    config = ConfigParser.ConfigParser()
+    try:
+        config.readfp(open(config_file))
+    except:
+        logging.error("Config file %s don't exist. Exit." % config_file)
+        sys.exit(1)
+
+    mzn_path = config.get("Config", "mzn_path")
+    skip_mzn_command = config.getboolean("Config", "skip_mzn_command")
+    not_process = config.get("Config", "not_process").replace(" ", "").split(',')
+
+    if not mzn_path:
+        raise Exception("mzn_path is not defined in %s" % config_file)
+    return {"mzn_path": mzn_path, "skip_mzn_command": skip_mzn_command, "not_process": not_process}
+
 if __name__ == "__main__":
     # Dir constants
     dir_raw_data = "data"
@@ -60,23 +79,28 @@ if __name__ == "__main__":
     dir_results = "results"
     dir_stats = "stats"
 
+    # Load data from config file
+    config_file = "project.cfg"
+    logging.info("Loading data from config file %s" % config_file)
+    try:
+        config = get_from_config(config_file)
+        mzn_path = config["mzn_path"]
+        skip_mzn_command = config["skip_mzn_command"]
+        not_process = config["not_process"]
+        logging.info("Config data loaded successfully")
+    except Exception as e:
+        logging.error("Something was wrong. %s" % str(e))
+        sys.exit(2)
+
     # MiniZinc Model filename
     mzn_models = [
         ("DNA_model.mzn", {"sufix": ""}),
         ("DNA_model_max.mzn", {"sufix": "_max"})
     ]
 
-    not_process = [  # list of files to skip
-        # "D2000",
-        "D3000",
-        "D4000",
-        "D5000",
-        "D6000"
-    ]
-
     # Init base libs
     mznBuild = DataBuild()
-    mznCmd = MiniZinc("mzn-g12fd")
+    mznCmd = MiniZinc(mzn_path)
     rebuild_mzn = DNARebuild()
 
     for root, dirs, files in walk(dir_raw_data):
@@ -107,7 +131,7 @@ if __name__ == "__main__":
                         # Try to execute the MiniZinc model with the processed data
                         mznCmd.load(mzn_model)
                         mznCmd.init_stats(stats_file.format(**mzn_model_sufix))
-                        result_mzn = mznCmd.run_and_save(processed_file, modeled_file.format(**mzn_model_sufix))
+                        result_mzn = mznCmd.run_and_save(processed_file, modeled_file.format(**mzn_model_sufix), skip_mzn_command)
 
                         # Read data obtained from MiniZinc model
                         model = rebuild_mzn.readModelFromFile(modeled_file.format(**mzn_model_sufix))
