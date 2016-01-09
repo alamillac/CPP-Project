@@ -33,6 +33,25 @@ def skip(skipped_files, current_file):
         i += 1
     return result
 
+
+def compare(file1, file2):
+    results = {"names": ['', ''], "chars": [0, 0], "equal": False}
+    try:
+        with open(file1) as f1:
+            text1 = f1.read().strip()
+
+        with open(file2) as f2:
+            text2 = f2.read().strip()
+
+        results["names"][0] = file1
+        results["names"][1] = file2
+        results["chars"][0] = len(text1)
+        results["chars"][1] = len(text2)
+        results["equal"] = text1 == text2
+    except:
+        logging.error("Error in function compare")
+    return results
+
 if __name__ == "__main__":
     # Dir constants
     dir_raw_data = "data"
@@ -93,6 +112,10 @@ if __name__ == "__main__":
                         # Read data obtained from MiniZinc model
                         model = rebuild_mzn.readModelFromFile(modeled_file.format(**mzn_model_sufix))
                         rebuild_mzn.saveResults(model, mznBuild.DNA_pieces, result_file.format(**mzn_model_sufix))
+
+                    # Compare results
+                    diff = compare(result_file.format(**mzn_models[0][1]), result_file.format(**mzn_models[1][1]))
+                    logging.info("{} chars in {}, {} chars in {}. Files equal: {}".format(diff["chars"][0], diff["names"][0], diff["chars"][1], diff["names"][1], diff["equal"]))
                 except:
                     logging.error("Something was wrong with file %s" % raw_file)
                     time.sleep(3)

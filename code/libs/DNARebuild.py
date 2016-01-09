@@ -66,7 +66,7 @@ class DNARebuild(object):
             result = self.getResults(model, DNA_pieces)
             with open(result_filename, 'w') as result_file:
                 result_file.write(result)
-            self.logger.info("Results file save successfully")
+            self.logger.info("Results file saved successfully")
             self.logger.info("DNA: %s" % result)
         except:
             self.logger.error("Something was wrong saving the file %s" % result_filename)
