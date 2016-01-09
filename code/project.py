@@ -42,7 +42,10 @@ if __name__ == "__main__":
     dir_stats = "stats"
 
     # MiniZinc Model filename
-    mzn_model = "DNA_model.mzn"
+    mzn_models = [
+        ("DNA_model.mzn", {"sufix": ""}),
+        ("DNA_model_max.mzn", {"sufix": "_max"})
+    ]
 
     not_process = [  # list of files to skip
         # "D2000",
@@ -54,7 +57,7 @@ if __name__ == "__main__":
 
     # Init base libs
     mznBuild = DataBuild()
-    mznCmd = MiniZinc("mzn-g12fd", mzn_model)
+    mznCmd = MiniZinc("mzn-g12fd")
     rebuild_mzn = DNARebuild()
 
     for root, dirs, files in walk(dir_raw_data):
@@ -70,9 +73,9 @@ if __name__ == "__main__":
                 raw_file = path.join(root, raw_filename)
                 basename = raw_filename.split('.')[0]
                 processed_file = path.join(dir_processed, basename + '.dzn')
-                modeled_file = path.join(dir_models, basename + '.txt')
-                result_file = path.join(dir_results, basename + '.txt')
-                stats_file = path.join(dir_stats, basename + '.json')
+                modeled_file = path.join(dir_models, basename + '{sufix}.txt')
+                result_file = path.join(dir_results, basename + '{sufix}.txt')
+                stats_file = path.join(dir_stats, basename + '{sufix}.json')
 
                 # Init process
                 mznBuild.clear()
@@ -81,13 +84,15 @@ if __name__ == "__main__":
                     mznBuild.readRawDNAFile(raw_file)
                     mznBuild.writeProcessedDNAFile(processed_file)
 
-                    # Try to execute the MiniZinc model with the processed data
-                    mznCmd.init_stats(stats_file)
-                    result_mzn = mznCmd.run_and_save(processed_file, modeled_file)
+                    for mzn_model, mzn_model_sufix in mzn_models:
+                        # Try to execute the MiniZinc model with the processed data
+                        mznCmd.load(mzn_model)
+                        mznCmd.init_stats(stats_file.format(**mzn_model_sufix))
+                        result_mzn = mznCmd.run_and_save(processed_file, modeled_file.format(**mzn_model_sufix))
 
-                    # Read data obtained from MiniZinc model
-                    model = rebuild_mzn.readModelFromFile(modeled_file)
-                    rebuild_mzn.saveResults(model, mznBuild.DNA_pieces, result_file)
+                        # Read data obtained from MiniZinc model
+                        model = rebuild_mzn.readModelFromFile(modeled_file.format(**mzn_model_sufix))
+                        rebuild_mzn.saveResults(model, mznBuild.DNA_pieces, result_file.format(**mzn_model_sufix))
                 except:
                     logging.error("Something was wrong with file %s" % raw_file)
                     time.sleep(3)
