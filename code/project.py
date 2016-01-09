@@ -67,7 +67,7 @@ if __name__ == "__main__":
                 logging.info("Skipping file %s" % raw_filename)
             else:
                 logging.info("Starting file %s" % raw_filename)
-                time.sleep(1)
+                time.sleep(0.5)
 
                 # Set namefiles
                 raw_file = path.join(root, raw_filename)
